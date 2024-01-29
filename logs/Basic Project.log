@@ -1,0 +1,164 @@
+06 Sep 23 12:25:53	INFO	main.py	legal translator: Finished initializing
+06 Sep 23 12:26:03	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+06 Sep 23 12:26:08	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+06 Sep 23 12:26:08	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: test"}]}' message='Post details'
+06 Sep 23 12:26:08	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+06 Sep 23 12:26:08	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+06 Sep 23 12:26:18	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+06 Sep 23 12:26:18	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=9113 request_id=aa09bae81d7728aa8f520c4dd6cb3573 response_code=200
+06 Sep 23 12:32:47	INFO	main.py	legal translator: Finished initializing
+06 Sep 23 12:33:37	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+06 Sep 23 12:33:49	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+06 Sep 23 12:33:49	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: Feldhamster erreichen eine Kopf-Rumpf-L\\u00e4nge von 20 bis 34 Zentimetern, wozu noch ein 4 bis 6 Zentimeter langer, beinahe haarloser Schwanz kommt. Das Gewicht ausgewachsener Tiere variiert zwischen 200 und 650 Gramm. M\\u00e4nnchen sind meist gr\\u00f6\\u00dfer und schwerer als Weibchen. Der Hamster gilt als das bunteste europ\\u00e4ische Pelztier. Die Fellf\\u00e4rbung ist variabel: die h\\u00e4ufigste Form ist eine gelbbraune Oberseite und eine dunkle, fast schwarze Unterseite. An den Flanken befinden sich mehrere wei\\u00dfe Flecken, auf der Wange, vor und hinter den Vorderbeinen. Die auffallende Gegenf\\u00e4rbung (R\\u00fccken heller als Bauch) ist plausibel dadurch erkl\\u00e4rt, dass ein Hamster, wenn er nicht mehr fliehen kann, sich zur Verteidigung aufrichtet: die schwarze Bauchseite imitiert das Maul eines gr\\u00f6\\u00dferen Raubtieres mit den vier wei\\u00dfen Pfoten als \\u201eFangz\\u00e4hne\\u201c. Die Region um die Schnauze und um die Augen ist r\\u00f6tlichbraun gef\\u00e4rbt, die F\\u00fc\\u00dfe und die Nasenspitze sind wiederum wei\\u00df. Daneben gibt es melanistische (fast g\\u00e4nzlich schwarze) und auffallend helle Feldhamster. Das Unterhaar ist gleichm\\u00e4\\u00dfig grau. Alle Hamsterarten haben gut entwickelte, dehnbare Backentaschen, mit deren Hilfe sie manchmal bis zu f\\u00fcnf Kilogramm K\\u00f6rnervorrat in ihren Bau eintragen, auch wenn sie zum \\u00dcberstehen des Winters nur zwei Kilogramm Nahrung ben\\u00f6tigen. Die F\\u00fc\\u00dfe sind breit und mit gut entwickelten Krallen versehen."}]}' message='Post details'
+06 Sep 23 12:33:49	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+06 Sep 23 12:33:49	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+06 Sep 23 12:34:03	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+06 Sep 23 12:34:03	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=13281 request_id=59bbcc4c9239c04958d7bffd8047e3e6 response_code=200
+06 Sep 23 12:35:07	INFO	main.py	legal translator: Finished initializing
+06 Sep 23 12:35:12	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+06 Sep 23 12:35:23	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+06 Sep 23 12:35:23	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: Feldhamster erreichen eine Kopf-Rumpf-L\\u00e4nge von 20 bis 34 Zentimetern, wozu noch ein 4 bis 6 Zentimeter langer, beinahe haarloser Schwanz kommt. Das Gewicht ausgewachsener Tiere variiert zwischen 200 und 650 Gramm. M\\u00e4nnchen sind meist gr\\u00f6\\u00dfer und schwerer als Weibchen. Der Hamster gilt als das bunteste europ\\u00e4ische Pelztier. Die Fellf\\u00e4rbung ist variabel: die h\\u00e4ufigste Form ist eine gelbbraune Oberseite und eine dunkle, fast schwarze Unterseite. An den Flanken befinden sich mehrere wei\\u00dfe Flecken, auf der Wange, vor und hinter den Vorderbeinen. Die auffallende Gegenf\\u00e4rbung (R\\u00fccken heller als Bauch) ist plausibel dadurch erkl\\u00e4rt, dass ein Hamster, wenn er nicht mehr fliehen kann, sich zur Verteidigung aufrichtet: die schwarze Bauchseite imitiert das Maul eines gr\\u00f6\\u00dferen Raubtieres mit den vier wei\\u00dfen Pfoten als \\u201eFangz\\u00e4hne\\u201c. Die Region um die Schnauze und um die Augen ist r\\u00f6tlichbraun gef\\u00e4rbt, die F\\u00fc\\u00dfe und die Nasenspitze sind wiederum wei\\u00df. Daneben gibt es melanistische (fast g\\u00e4nzlich schwarze) und auffallend helle Feldhamster. Das Unterhaar ist gleichm\\u00e4\\u00dfig grau. Alle Hamsterarten haben gut entwickelte, dehnbare Backentaschen, mit deren Hilfe sie manchmal bis zu f\\u00fcnf Kilogramm K\\u00f6rnervorrat in ihren Bau eintragen, auch wenn sie zum \\u00dcberstehen des Winters nur zwei Kilogramm Nahrung ben\\u00f6tigen. Die F\\u00fc\\u00dfe sind breit und mit gut entwickelten Krallen versehen."}]}' message='Post details'
+06 Sep 23 12:35:23	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+06 Sep 23 12:35:23	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+06 Sep 23 12:35:42	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+06 Sep 23 12:35:42	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=16626 request_id=fc9350bea344432c88d639b0ef1694ae response_code=200
+06 Sep 23 12:36:29	INFO	main.py	legal translator: Finished initializing
+06 Sep 23 12:36:31	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+06 Sep 23 12:36:31	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: Feldhamster erreichen eine Kopf-Rumpf-L\\u00e4nge von 20 bis 34 Zentimetern, wozu noch ein 4 bis 6 Zentimeter langer, beinahe haarloser Schwanz kommt. Das Gewicht ausgewachsener Tiere variiert zwischen 200 und 650 Gramm. M\\u00e4nnchen sind meist gr\\u00f6\\u00dfer und schwerer als Weibchen. Der Hamster gilt als das bunteste europ\\u00e4ische Pelztier. Die Fellf\\u00e4rbung ist variabel: die h\\u00e4ufigste Form ist eine gelbbraune Oberseite und eine dunkle, fast schwarze Unterseite. An den Flanken befinden sich mehrere wei\\u00dfe Flecken, auf der Wange, vor und hinter den Vorderbeinen. Die auffallende Gegenf\\u00e4rbung (R\\u00fccken heller als Bauch) ist plausibel dadurch erkl\\u00e4rt, dass ein Hamster, wenn er nicht mehr fliehen kann, sich zur Verteidigung aufrichtet: die schwarze Bauchseite imitiert das Maul eines gr\\u00f6\\u00dferen Raubtieres mit den vier wei\\u00dfen Pfoten als \\u201eFangz\\u00e4hne\\u201c. Die Region um die Schnauze und um die Augen ist r\\u00f6tlichbraun gef\\u00e4rbt, die F\\u00fc\\u00dfe und die Nasenspitze sind wiederum wei\\u00df. Daneben gibt es melanistische (fast g\\u00e4nzlich schwarze) und auffallend helle Feldhamster. Das Unterhaar ist gleichm\\u00e4\\u00dfig grau. Alle Hamsterarten haben gut entwickelte, dehnbare Backentaschen, mit deren Hilfe sie manchmal bis zu f\\u00fcnf Kilogramm K\\u00f6rnervorrat in ihren Bau eintragen, auch wenn sie zum \\u00dcberstehen des Winters nur zwei Kilogramm Nahrung ben\\u00f6tigen. Die F\\u00fc\\u00dfe sind breit und mit gut entwickelten Krallen versehen."}]}' message='Post details'
+06 Sep 23 12:36:31	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+06 Sep 23 12:36:31	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+06 Sep 23 12:36:50	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+06 Sep 23 12:36:50	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=18341 request_id=24d9bc70af9200e18c5f29ba09d11213 response_code=200
+06 Sep 23 12:37:17	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+06 Sep 23 12:37:44	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+06 Sep 23 12:37:44	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: Feldhamster erreichen eine Kopf-Rumpf-L\\u00e4nge von 20 bis 34 Zentimetern, wozu noch ein 4 bis 6 Zentimeter langer, beinahe haarloser Schwanz kommt. Das Gewicht ausgewachsener Tiere variiert zwischen 200 und 650 Gramm. M\\u00e4nnchen sind meist gr\\u00f6\\u00dfer und schwerer als Weibchen. Der Hamster gilt als das bunteste europ\\u00e4ische Pelztier. Die Fellf\\u00e4rbung ist variabel: die h\\u00e4ufigste Form ist eine gelbbraune Oberseite und eine dunkle, fast schwarze Unterseite. An den Flanken befinden sich mehrere wei\\u00dfe Flecken, auf der Wange, vor und hinter den Vorderbeinen. Die auffallende Gegenf\\u00e4rbung (R\\u00fccken heller als Bauch) ist plausibel dadurch erkl\\u00e4rt, dass ein Hamster, wenn er nicht mehr fliehen kann, sich zur Verteidigung aufrichtet: die schwarze Bauchseite imitiert das Maul eines gr\\u00f6\\u00dferen Raubtieres mit den vier wei\\u00dfen Pfoten als \\u201eFangz\\u00e4hne\\u201c. Die Region um die Schnauze und um die Augen ist r\\u00f6tlichbraun gef\\u00e4rbt, die F\\u00fc\\u00dfe und die Nasenspitze sind wiederum wei\\u00df. Daneben gibt es melanistische (fast g\\u00e4nzlich schwarze) und auffallend helle Feldhamster. Das Unterhaar ist gleichm\\u00e4\\u00dfig grau. Alle Hamsterarten haben gut entwickelte, dehnbare Backentaschen, mit deren Hilfe sie manchmal bis zu f\\u00fcnf Kilogramm K\\u00f6rnervorrat in ihren Bau eintragen, auch wenn sie zum \\u00dcberstehen des Winters nur zwei Kilogramm Nahrung ben\\u00f6tigen. Die F\\u00fc\\u00dfe sind breit und mit gut entwickelten Krallen versehen."}]}' message='Post details'
+06 Sep 23 12:38:05	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+06 Sep 23 12:38:05	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=19738 request_id=64082ad5e9940e65bbe956600c4f0503 response_code=200
+06 Sep 23 12:47:11	INFO	main.py	legal translator: Finished initializing
+06 Sep 23 12:47:16	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+06 Sep 23 12:48:23	INFO	main.py	legal translator: Finished initializing
+06 Sep 23 12:48:27	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+06 Sep 23 12:56:14	INFO	main.py	legal translator: Finished initializing
+06 Sep 23 12:56:23	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+06 Sep 23 12:57:07	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+06 Sep 23 12:57:07	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: Sie sind typische Bodenbewohner und kommen fast nur in L\\u00f6ss- und Lehmboden vor. Der Feldhamster ist ein haupts\\u00e4chlich d\\u00e4mmerungs- und nachtaktiver territorialer Einzelg\\u00e4nger. Jedes erwachsene Tier gr\\u00e4bt 0,5\\u20132 m tiefe, verzweigte Erdbaue, die als Revier verteidigt werden.[1] Die Winterbaue sind tiefer als die Sommerbaue. Nach dem Erwachen aus dem Winterschlaf beginnen Feldhamster mit der Anlage oder Ausbesserung der Sommerbaue. Die tief verzweigten Erdbaue enthalten eine Wohn- und eine Vorratskammer sowie Blindg\\u00e4nge zum Koten.[1] Die Baue der immer einzeln lebenden M\\u00e4nnchen sind in der Regel kleiner als die der Weibchen. Typisch f\\u00fcr jeden Hamsterbau sind senkrechte Fallr\\u00f6hren und meist zwei bis drei flach verlaufende Eing\\u00e4nge. Durch ihre w\\u00fchlende T\\u00e4tigkeit und durch die Tatsache, dass sie unter der Bodenoberfl\\u00e4che Humus akkumulieren, haben sie einen gewissen Anteil an der Bildung von Schwarzerden."}]}' message='Post details'
+06 Sep 23 12:57:07	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+06 Sep 23 12:57:07	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+06 Sep 23 12:57:08	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 401 496
+06 Sep 23 12:57:08	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=5afefdba69e50091c3930ace5619beaa response_code=401
+06 Sep 23 12:57:08	INFO	util.py	error_code=None error_message="You didn't provide an API key. You need to provide your API key in an Authorization header using Bearer auth (i.e. Authorization: Bearer YOUR_KEY), or as the password field (with blank username) if you're accessing the API from your browser and are prompted for a username and password. You can obtain an API key from https://platform.openai.com/account/api-keys." error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+06 Sep 23 12:57:18	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+06 Sep 23 12:57:18	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: Sie sind typische Bodenbewohner und kommen fast nur in L\\u00f6ss- und Lehmboden vor. Der Feldhamster ist ein haupts\\u00e4chlich d\\u00e4mmerungs- und nachtaktiver territorialer Einzelg\\u00e4nger. Jedes erwachsene Tier gr\\u00e4bt 0,5\\u20132 m tiefe, verzweigte Erdbaue, die als Revier verteidigt werden.[1] Die Winterbaue sind tiefer als die Sommerbaue. Nach dem Erwachen aus dem Winterschlaf beginnen Feldhamster mit der Anlage oder Ausbesserung der Sommerbaue. Die tief verzweigten Erdbaue enthalten eine Wohn- und eine Vorratskammer sowie Blindg\\u00e4nge zum Koten.Die Baue der immer einzeln lebenden M\\u00e4nnchen sind in der Regel kleiner als die der Weibchen. Typisch f\\u00fcr jeden Hamsterbau sind senkrechte Fallr\\u00f6hren und meist zwei bis drei flach verlaufende Eing\\u00e4nge. Durch ihre w\\u00fchlende T\\u00e4tigkeit und durch die Tatsache, dass sie unter der Bodenoberfl\\u00e4che Humus akkumulieren, haben sie einen gewissen Anteil an der Bildung von Schwarzerden."}]}' message='Post details'
+06 Sep 23 12:57:18	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 401 496
+06 Sep 23 12:57:18	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=66132b99e48872b4100413b4e4c6c7e2 response_code=401
+06 Sep 23 12:57:18	INFO	util.py	error_code=None error_message="You didn't provide an API key. You need to provide your API key in an Authorization header using Bearer auth (i.e. Authorization: Bearer YOUR_KEY), or as the password field (with blank username) if you're accessing the API from your browser and are prompted for a username and password. You can obtain an API key from https://platform.openai.com/account/api-keys." error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+06 Sep 23 13:02:34	INFO	main.py	legal translator: Finished initializing
+06 Sep 23 13:02:38	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+06 Sep 23 13:02:43	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+06 Sep 23 13:02:43	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: test"}]}' message='Post details'
+06 Sep 23 13:02:43	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+06 Sep 23 13:02:43	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+06 Sep 23 13:02:44	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+06 Sep 23 13:02:44	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1235 request_id=90fd75f81d25a8d3a7225119c0fe0f9c response_code=200
+07 Sep 23 14:54:59	INFO	main.py	legal translator: Finished initializing
+07 Sep 23 14:55:07	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+07 Sep 23 14:55:13	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+07 Sep 23 14:55:13	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: test"}]}' message='Post details'
+07 Sep 23 14:55:13	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+07 Sep 23 14:55:13	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+07 Sep 23 14:55:14	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+07 Sep 23 14:55:14	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=676 request_id=5d242bcaab0a2d3f61c2a21db195a79e response_code=200
+07 Sep 23 14:56:26	INFO	main.py	legal translator: Finished initializing
+07 Sep 23 14:56:30	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+07 Sep 23 14:56:34	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+07 Sep 23 14:56:34	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: test"}]}' message='Post details'
+07 Sep 23 14:56:34	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+07 Sep 23 14:56:34	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+07 Sep 23 14:56:34	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+07 Sep 23 14:56:34	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=370 request_id=c5e300557ac1ad5698395c2ac9cd485b response_code=200
+07 Sep 23 14:57:58	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+07 Sep 23 14:57:58	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: test"}]}' message='Post details'
+07 Sep 23 14:58:00	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+07 Sep 23 14:58:00	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=973 request_id=b68618522d6318ab77741956bf6329be response_code=200
+07 Sep 23 14:58:17	INFO	main.py	legal translator: Finished initializing
+07 Sep 23 14:58:19	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+07 Sep 23 14:58:24	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+07 Sep 23 14:58:24	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: test"}]}' message='Post details'
+07 Sep 23 14:58:24	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+07 Sep 23 14:58:24	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+07 Sep 23 14:58:26	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+07 Sep 23 14:58:26	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=897 request_id=5884265e98dbf09e2783943f24981318 response_code=200
+07 Sep 23 15:00:24	INFO	main.py	legal translator: Finished initializing
+07 Sep 23 15:00:41	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+07 Sep 23 15:00:44	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+07 Sep 23 15:00:44	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: test"}]}' message='Post details'
+07 Sep 23 15:00:44	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+07 Sep 23 15:00:44	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+07 Sep 23 15:00:47	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+07 Sep 23 15:00:47	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1364 request_id=2f410f6677917f007cf200aaba91194b response_code=200
+07 Sep 23 15:01:47	INFO	main.py	legal translator: Finished initializing
+07 Sep 23 15:01:52	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+07 Sep 23 15:01:57	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+07 Sep 23 15:01:57	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: test"}]}' message='Post details'
+07 Sep 23 15:01:57	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+07 Sep 23 15:01:57	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+07 Sep 23 15:02:00	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+07 Sep 23 15:02:00	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1118 request_id=7c16a8a9fc388d9840fda597608e5833 response_code=200
+07 Sep 23 15:06:01	INFO	main.py	legal translator: Finished initializing
+07 Sep 23 15:06:05	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+07 Sep 23 15:06:09	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+07 Sep 23 15:06:09	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: test"}]}' message='Post details'
+07 Sep 23 15:06:09	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+07 Sep 23 15:06:09	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+07 Sep 23 15:06:10	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+07 Sep 23 15:06:10	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1002 request_id=08b26776f2cd65b9d0ef5cde986d6796 response_code=200
+07 Sep 23 15:07:36	INFO	main.py	legal translator: Finished initializing
+07 Sep 23 15:07:41	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+07 Sep 23 15:08:10	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+07 Sep 23 15:08:10	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: Das ist mein Test"}]}' message='Post details'
+07 Sep 23 15:08:10	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+07 Sep 23 15:08:10	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+07 Sep 23 15:08:12	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+07 Sep 23 15:08:12	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1040 request_id=8312fe19147c995d40719a00d57648f4 response_code=200
+08 Sep 23 22:06:12	INFO	main.py	legal translator: Finished initializing
+08 Sep 23 22:06:19	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+08 Sep 23 22:12:38	INFO	main.py	legal translator: Finished initializing
+08 Sep 23 22:12:43	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+08 Sep 23 22:12:53	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+08 Sep 23 22:12:53	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: neuer test test"}]}' message='Post details'
+08 Sep 23 22:12:53	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+08 Sep 23 22:12:53	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+08 Sep 23 22:12:54	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+08 Sep 23 22:12:54	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=528 request_id=12513d6328f5d4c98f4ca1f9a7104b01 response_code=200
+09 Sep 23 09:43:13	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 09:45:11	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 09:47:36	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 09:48:37	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 09:48:45	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+09 Sep 23 09:48:50	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 09:48:50	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: test"}]}' message='Post details'
+09 Sep 23 09:48:50	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 09:48:50	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 09:48:53	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 09:48:53	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=986 request_id=8ed76f66e1eae643d48944f3cfe545b6 response_code=200
+09 Sep 23 09:50:06	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 09:50:15	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator

@@ -1,0 +1,866 @@
+09 Sep 23 09:50:57	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 09:51:18	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+09 Sep 23 09:51:26	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 09:51:26	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: test"}]}' message='Post details'
+09 Sep 23 09:51:26	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 09:51:26	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 09:51:27	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 09:51:27	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1181 request_id=1662d2efb22db2d4c8b77056c6a03938 response_code=200
+09 Sep 23 09:53:06	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 09:53:09	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+09 Sep 23 09:53:38	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 09:53:38	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 09:53:38	DEBUG	multipart.py	Calling on_field_data with data[5:21]
+09 Sep 23 09:53:38	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 09:53:38	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 09:53:38	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 09:53:38	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: Gesetz ist toll."}]}' message='Post details'
+09 Sep 23 09:53:38	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 09:53:38	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 09:53:39	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 09:53:39	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=582 request_id=4919bda7183fded8d1f5ae772c115bb6 response_code=200
+09 Sep 23 09:54:49	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 09:58:13	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 09:59:40	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 09:59:40	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 09:59:40	DEBUG	multipart.py	Calling on_field_data with data[5:24]
+09 Sep 23 09:59:40	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 09:59:40	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 09:59:40	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 09:59:40	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: Gesetzte sind toll."}]}' message='Post details'
+09 Sep 23 09:59:40	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 09:59:40	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 09:59:42	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 09:59:42	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=829 request_id=4940c78b530b412bed6c53ca4257545d response_code=200
+09 Sep 23 10:11:02	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 10:11:14	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 10:11:14	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 10:11:14	DEBUG	multipart.py	Calling on_field_data with data[5:15]
+09 Sep 23 10:11:14	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 10:11:14	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 10:11:14	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 10:11:14	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: dummy text"}]}' message='Post details'
+09 Sep 23 10:11:14	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 10:11:14	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 10:11:15	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 10:11:15	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=683 request_id=35673cc515b02cf04e8807f014d70208 response_code=200
+09 Sep 23 10:13:22	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 10:13:51	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 10:13:51	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 10:13:51	DEBUG	multipart.py	Calling on_field_data with data[5:15]
+09 Sep 23 10:13:51	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 10:13:51	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 10:13:51	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 10:13:51	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in leichter Sprache: dummy text"}]}' message='Post details'
+09 Sep 23 10:13:51	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 10:13:51	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 10:13:52	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 10:13:52	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=698 request_id=a2f889061d66f2f54121e711bb3a0aa2 response_code=200
+09 Sep 23 11:05:22	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 11:05:30	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 11:05:30	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 11:05:30	DEBUG	multipart.py	Calling on_field_data with data[5:2612]
+09 Sep 23 11:05:30	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 11:05:30	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 11:05:30	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 11:05:30	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines Gl\\u00e4ubigerausschusses (\\u00a7 68 InsO), zur Hinterlegungsstelle und zu den Bedingungen zur Anlage und Hinterlegung von Geld, Wertpapieren und Kostbarkeiten (\\u00a7 149 InsO), zur Zwischenrechnungslegung gegen\\u00fcber der Gl\\u00e4ubigerversammlung (\\u00a7 66 Abs. 3 InsO), zur Entscheidung \\u00fcber den Fortgang des Verfahrens (\\u00a7 157 InsO). Die Tabelle mit den Forderungen und die Anmeldeunterlagen sowie der Bericht des Insolvenzverwalters werden sp\\u00e4testens ab dem 13.11.2023 zur Einsicht der Beteiligten auf der Gesch\\u00e4ftsstelle des Amtsgerichts K\\u00f6ln, Luxemburger Str. 101, 50939 K\\u00f6ln, Zimmer Nr. 1219 niedergelegt. Ein schriftlicher Widerspruch, mit dem ein Beteiligter eine Forderung bestreitet, muss sp\\u00e4testens am Pr\\u00fcfungsstichtag bei Gericht eingehen. Im Widerspruch ist anzugeben, ob die Forderung nach ihrem Grund, ihrem Betrag oder ihrem Rang bestritten wird. Haben Gl\\u00e4ubiger vorgetragen, die Forderung stamme aus einer vors\\u00e4tzlich begangenen unerlaubten Handlung der Schuldnerin, aus einer vors\\u00e4tzlich pflichtwidrigen Verletzung einer gesetzlichen Unterhaltspflicht oder einer Steuerstraftat des Schuldners nach \\u00a7\\u00a7 370, 373 oder \\u00a7 384 der Abgabenordnung so hat die Schuldnerin im Widerspruch zus\\u00e4tzlich anzugeben, ob sie diesen Vortrag bestreitet."}]}' message='Post details'
+09 Sep 23 11:05:30	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 11:05:30	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 11:05:41	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 11:05:41	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=10262 request_id=0e8db2b6801e87de53eb79b77899e214 response_code=200
+09 Sep 23 11:05:50	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 11:05:50	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 11:05:50	DEBUG	multipart.py	Calling on_field_data with data[5:2612]
+09 Sep 23 11:05:50	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 11:05:50	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 11:05:50	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 11:05:50	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines Gl\\u00e4ubigerausschusses (\\u00a7 68 InsO), zur Hinterlegungsstelle und zu den Bedingungen zur Anlage und Hinterlegung von Geld, Wertpapieren und Kostbarkeiten (\\u00a7 149 InsO), zur Zwischenrechnungslegung gegen\\u00fcber der Gl\\u00e4ubigerversammlung (\\u00a7 66 Abs. 3 InsO), zur Entscheidung \\u00fcber den Fortgang des Verfahrens (\\u00a7 157 InsO). Die Tabelle mit den Forderungen und die Anmeldeunterlagen sowie der Bericht des Insolvenzverwalters werden sp\\u00e4testens ab dem 13.11.2023 zur Einsicht der Beteiligten auf der Gesch\\u00e4ftsstelle des Amtsgerichts K\\u00f6ln, Luxemburger Str. 101, 50939 K\\u00f6ln, Zimmer Nr. 1219 niedergelegt. Ein schriftlicher Widerspruch, mit dem ein Beteiligter eine Forderung bestreitet, muss sp\\u00e4testens am Pr\\u00fcfungsstichtag bei Gericht eingehen. Im Widerspruch ist anzugeben, ob die Forderung nach ihrem Grund, ihrem Betrag oder ihrem Rang bestritten wird. Haben Gl\\u00e4ubiger vorgetragen, die Forderung stamme aus einer vors\\u00e4tzlich begangenen unerlaubten Handlung der Schuldnerin, aus einer vors\\u00e4tzlich pflichtwidrigen Verletzung einer gesetzlichen Unterhaltspflicht oder einer Steuerstraftat des Schuldners nach \\u00a7\\u00a7 370, 373 oder \\u00a7 384 der Abgabenordnung so hat die Schuldnerin im Widerspruch zus\\u00e4tzlich anzugeben, ob sie diesen Vortrag bestreitet."}]}' message='Post details'
+09 Sep 23 11:06:04	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 11:06:04	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=13313 request_id=049a02a8b9d68fc24b594098c3876332 response_code=200
+09 Sep 23 11:07:16	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 11:07:30	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 11:07:30	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 11:07:30	DEBUG	multipart.py	Calling on_field_data with data[5:2612]
+09 Sep 23 11:07:30	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 11:07:30	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 11:07:30	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 11:07:30	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines Gl\\u00e4ubigerausschusses (\\u00a7 68 InsO), zur Hinterlegungsstelle und zu den Bedingungen zur Anlage und Hinterlegung von Geld, Wertpapieren und Kostbarkeiten (\\u00a7 149 InsO), zur Zwischenrechnungslegung gegen\\u00fcber der Gl\\u00e4ubigerversammlung (\\u00a7 66 Abs. 3 InsO), zur Entscheidung \\u00fcber den Fortgang des Verfahrens (\\u00a7 157 InsO). Die Tabelle mit den Forderungen und die Anmeldeunterlagen sowie der Bericht des Insolvenzverwalters werden sp\\u00e4testens ab dem 13.11.2023 zur Einsicht der Beteiligten auf der Gesch\\u00e4ftsstelle des Amtsgerichts K\\u00f6ln, Luxemburger Str. 101, 50939 K\\u00f6ln, Zimmer Nr. 1219 niedergelegt. Ein schriftlicher Widerspruch, mit dem ein Beteiligter eine Forderung bestreitet, muss sp\\u00e4testens am Pr\\u00fcfungsstichtag bei Gericht eingehen. Im Widerspruch ist anzugeben, ob die Forderung nach ihrem Grund, ihrem Betrag oder ihrem Rang bestritten wird. Haben Gl\\u00e4ubiger vorgetragen, die Forderung stamme aus einer vors\\u00e4tzlich begangenen unerlaubten Handlung der Schuldnerin, aus einer vors\\u00e4tzlich pflichtwidrigen Verletzung einer gesetzlichen Unterhaltspflicht oder einer Steuerstraftat des Schuldners nach \\u00a7\\u00a7 370, 373 oder \\u00a7 384 der Abgabenordnung so hat die Schuldnerin im Widerspruch zus\\u00e4tzlich anzugeben, ob sie diesen Vortrag bestreitet."}]}' message='Post details'
+09 Sep 23 11:07:30	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 11:07:30	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 11:07:47	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 11:07:47	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=15740 request_id=2f051ae66f506206743e20b351418888 response_code=200
+09 Sep 23 12:20:39	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 12:26:10	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 12:33:25	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 12:34:22	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 12:36:56	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 12:37:22	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 12:37:31	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 12:37:31	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 12:37:31	DEBUG	multipart.py	Calling on_field_data with data[5:15]
+09 Sep 23 12:37:31	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 12:37:31	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 12:37:31	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 12:37:31	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: dummy text"}]}' message='Post details'
+09 Sep 23 12:37:31	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 12:37:31	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 12:37:40	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 12:37:40	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7674 request_id=96225cdc1813bf62893599d3b9dc2279 response_code=200
+09 Sep 23 13:25:41	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 13:25:52	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 13:25:52	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 13:25:52	DEBUG	multipart.py	Calling on_field_data with data[5:15]
+09 Sep 23 13:25:52	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 13:25:52	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 13:25:52	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 13:25:52	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: dummy text"}]}' message='Post details'
+09 Sep 23 13:25:52	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 13:25:52	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 13:25:54	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 13:25:54	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1425 request_id=924859be4d29b563f52dfb14875ba281 response_code=200
+09 Sep 23 13:32:02	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 13:32:11	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 13:32:11	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 13:32:11	DEBUG	multipart.py	Calling on_field_data with data[5:15]
+09 Sep 23 13:32:11	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 13:32:11	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 13:32:11	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 13:32:11	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: dummy text"}]}' message='Post details'
+09 Sep 23 13:32:11	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 13:32:11	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 13:32:21	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 13:32:21	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=9159 request_id=7fb90f54b035be166560b8c21b6685cb response_code=200
+09 Sep 23 13:32:52	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 13:32:57	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 13:32:57	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 13:32:57	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 13:32:57	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 13:33:07	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 13:33:07	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 13:33:07	DEBUG	multipart.py	Calling on_field_data with data[5:19]
+09 Sep 23 13:33:07	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 13:33:07	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 13:33:07	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 13:33:07	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Gesetztes text"}]}' message='Post details'
+09 Sep 23 13:33:07	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 13:33:07	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 13:33:14	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 13:33:14	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6322 request_id=9a77c49d04f1b4530132bfb97298f5f2 response_code=200
+09 Sep 23 13:49:12	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 13:49:58	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 13:49:58	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 13:49:58	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 13:49:58	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 13:50:06	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 13:50:06	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 13:50:06	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 13:50:06	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 13:50:13	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 13:50:13	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 13:50:13	DEBUG	multipart.py	Calling on_field_data with data[5:18]
+09 Sep 23 13:50:13	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 13:50:13	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 13:50:13	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 13:50:13	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Gesetztestext"}]}' message='Post details'
+09 Sep 23 13:50:13	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 13:50:13	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 13:50:20	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 13:50:20	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=3335 request_id=00bcc24d74a7911e05d781694667fa1c response_code=200
+09 Sep 23 13:51:33	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 13:53:52	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 13:54:28	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 13:54:44	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 13:54:57	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 13:57:53	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 13:58:11	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 13:58:11	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 13:58:11	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 13:58:11	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 13:59:57	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:00:38	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 14:00:38	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 14:00:38	DEBUG	multipart.py	Calling on_field_data with data[5:15]
+09 Sep 23 14:00:38	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 14:00:38	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 14:00:38	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 14:00:38	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Input Text"}]}' message='Post details'
+09 Sep 23 14:00:38	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 14:00:38	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 14:00:57	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 14:00:57	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=9048 request_id=3ca1a8c13b5f37ec34719a60003d3b31 response_code=200
+09 Sep 23 14:00:57	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 14:00:57	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 14:00:57	DEBUG	multipart.py	Calling on_field_data with data[5:15]
+09 Sep 23 14:00:57	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 14:00:57	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 14:00:57	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 14:00:57	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Input Text"}]}' message='Post details'
+09 Sep 23 14:01:08	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 14:01:08	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=10391 request_id=d6b4b4f923f3a439c0dd8cb8e1b5107f response_code=200
+09 Sep 23 14:01:43	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:05:55	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:06:45	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:07:55	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:09:29	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 14:09:29	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 14:09:29	DEBUG	multipart.py	Calling on_field_data with data[5:1610]
+09 Sep 23 14:09:29	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 14:09:29	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 14:09:29	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 14:09:29	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines Gl\\u00e4ubigerausschusses (\\u00a7 68 InsO), zur Hinterlegungsstelle und zu den Bedingungen zur Anlage und Hinterlegung von Geld, Wertpapieren und Kostbarkeiten (\\u00a7 149 InsO), zur Zwischenrechnungslegung gegen\\u00fcber der Gl\\u00e4ubigerversammlung (\\u00a7 66 Abs. 3 InsO), zur Entscheidung \\u00fcber den Fortgang des Verfahrens (\\u00a7 157 InsO). "}]}' message='Post details'
+09 Sep 23 14:09:29	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 14:09:29	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 14:09:54	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 14:09:54	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=13844 request_id=3e4d88a30ba568fe48d91cb61cddb50a response_code=200
+09 Sep 23 14:12:09	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:12:23	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 14:12:23	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 14:12:23	DEBUG	multipart.py	Calling on_field_data with data[5:28]
+09 Sep 23 14:12:23	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 14:12:23	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 14:12:23	DEBUG	multipart.py	Calling on_field_name with data[29:33]
+09 Sep 23 14:12:23	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 14:12:23	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 14:13:43	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:13:51	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 14:13:51	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 14:13:51	DEBUG	multipart.py	Calling on_field_data with data[5:22]
+09 Sep 23 14:13:51	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 14:13:51	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 14:13:51	DEBUG	multipart.py	Calling on_field_name with data[23:27]
+09 Sep 23 14:13:51	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 14:13:51	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 14:14:32	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:16:20	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:16:58	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:17:55	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:40:45	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:43:49	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:44:54	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:45:03	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 14:45:03	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 14:45:03	DEBUG	multipart.py	Calling on_field_data with data[5:21]
+09 Sep 23 14:45:03	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 14:45:03	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 14:45:03	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 14:45:03	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Ds ist mein text"}]}' message='Post details'
+09 Sep 23 14:45:03	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 14:45:03	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 14:45:08	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 14:45:08	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=4061 request_id=0c6058f1633707bb4c6eccc501a2915d response_code=200
+09 Sep 23 14:46:15	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:46:51	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 14:46:51	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 14:46:51	DEBUG	multipart.py	Calling on_field_data with data[5:27]
+09 Sep 23 14:46:51	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 14:46:51	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 14:46:51	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 14:46:51	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Ds ist mein Test Text."}]}' message='Post details'
+09 Sep 23 14:46:51	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 14:46:51	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 14:47:11	DEBUG	retry.py	Incremented Retry for (url='/v1/chat/completions'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 14:47:11	WARNING	connectionpool.py	Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f53d69b7950>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /v1/chat/completions
+09 Sep 23 14:47:11	DEBUG	connectionpool.py	Starting new HTTPS connection (2): api.openai.com:443
+09 Sep 23 14:48:26	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:48:38	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 14:48:38	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 14:48:38	DEBUG	multipart.py	Calling on_field_data with data[5:27]
+09 Sep 23 14:48:38	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 14:48:38	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 14:48:38	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 14:48:38	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Das ist mein Test Text"}]}' message='Post details'
+09 Sep 23 14:48:38	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 14:48:38	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 14:49:05	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:49:16	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 14:49:16	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 14:49:16	DEBUG	multipart.py	Calling on_field_data with data[5:28]
+09 Sep 23 14:49:16	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 14:49:16	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 14:49:16	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 14:49:16	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Das ist mein TEst TExt."}]}' message='Post details'
+09 Sep 23 14:49:16	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 14:49:16	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 14:49:23	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 14:49:23	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1485 request_id=00dea87c6356e2278f7b2ca892ae004b response_code=200
+09 Sep 23 14:51:51	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 14:57:05	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:15:40	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 15:15:40	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 15:15:40	DEBUG	multipart.py	Calling on_field_data with data[5:50]
+09 Sep 23 15:15:40	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 15:15:40	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 15:15:40	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 15:15:40	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Das ist mein TExt. Bla bla bla bla blie blub "}]}' message='Post details'
+09 Sep 23 15:15:40	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 15:15:40	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 15:17:21	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:18:16	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 15:18:16	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 15:18:16	DEBUG	multipart.py	Calling on_field_data with data[5:51]
+09 Sep 23 15:18:16	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 15:18:16	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 15:18:16	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 15:18:16	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: das ist ein Test text. Das Haus ist sch\\u00f6n"}]}' message='Post details'
+09 Sep 23 15:18:16	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 15:18:16	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 15:18:20	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 15:18:20	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=553 request_id=2e8db418836738ec88dcafc4ca7f9dcc response_code=200
+09 Sep 23 15:19:13	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 15:19:13	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 15:19:13	DEBUG	multipart.py	Calling on_field_data with data[5:1610]
+09 Sep 23 15:19:13	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 15:19:13	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 15:19:13	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 15:19:13	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines Gl\\u00e4ubigerausschusses (\\u00a7 68 InsO), zur Hinterlegungsstelle und zu den Bedingungen zur Anlage und Hinterlegung von Geld, Wertpapieren und Kostbarkeiten (\\u00a7 149 InsO), zur Zwischenrechnungslegung gegen\\u00fcber der Gl\\u00e4ubigerversammlung (\\u00a7 66 Abs. 3 InsO), zur Entscheidung \\u00fcber den Fortgang des Verfahrens (\\u00a7 157 InsO). "}]}' message='Post details'
+09 Sep 23 15:19:29	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 15:19:29	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=15275 request_id=a5a37bbbe77e303449de8dcf2279b9f4 response_code=200
+09 Sep 23 15:20:15	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:20:29	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:21:35	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:21:52	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 15:21:52	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 15:21:52	DEBUG	multipart.py	Calling on_field_data with data[5:1610]
+09 Sep 23 15:21:52	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 15:21:52	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 15:21:52	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 15:21:52	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Schreibe diesen Text in verst\\u00e4ndlicher Sprache und in Stichpunkten: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines Gl\\u00e4ubigerausschusses (\\u00a7 68 InsO), zur Hinterlegungsstelle und zu den Bedingungen zur Anlage und Hinterlegung von Geld, Wertpapieren und Kostbarkeiten (\\u00a7 149 InsO), zur Zwischenrechnungslegung gegen\\u00fcber der Gl\\u00e4ubigerversammlung (\\u00a7 66 Abs. 3 InsO), zur Entscheidung \\u00fcber den Fortgang des Verfahrens (\\u00a7 157 InsO). "}]}' message='Post details'
+09 Sep 23 15:21:52	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 15:21:52	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 15:22:06	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 15:22:06	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=12802 request_id=6ab095edb21ee635709f9fa9eb38c435 response_code=200
+09 Sep 23 15:24:55	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:25:07	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 15:25:07	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 15:25:07	DEBUG	multipart.py	Calling on_field_data with data[5:1610]
+09 Sep 23 15:25:07	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 15:25:07	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 15:25:07	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 15:25:07	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines Gl\\u00e4ubigerausschusses (\\u00a7 68 InsO), zur Hinterlegungsstelle und zu den Bedingungen zur Anlage und Hinterlegung von Geld, Wertpapieren und Kostbarkeiten (\\u00a7 149 InsO), zur Zwischenrechnungslegung gegen\\u00fcber der Gl\\u00e4ubigerversammlung (\\u00a7 66 Abs. 3 InsO), zur Entscheidung \\u00fcber den Fortgang des Verfahrens (\\u00a7 157 InsO). "}]}' message='Post details'
+09 Sep 23 15:25:07	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 15:25:07	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 15:25:20	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 15:25:20	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7002 request_id=73512c6a6eb1e1637efcd3c5343edd3d response_code=200
+09 Sep 23 15:26:17	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 15:26:17	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 15:26:17	DEBUG	multipart.py	Calling on_field_data with data[5:1610]
+09 Sep 23 15:26:17	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 15:26:17	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 15:26:17	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 15:26:17	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines Gl\\u00e4ubigerausschusses (\\u00a7 68 InsO), zur Hinterlegungsstelle und zu den Bedingungen zur Anlage und Hinterlegung von Geld, Wertpapieren und Kostbarkeiten (\\u00a7 149 InsO), zur Zwischenrechnungslegung gegen\\u00fcber der Gl\\u00e4ubigerversammlung (\\u00a7 66 Abs. 3 InsO), zur Entscheidung \\u00fcber den Fortgang des Verfahrens (\\u00a7 157 InsO). "}]}' message='Post details'
+09 Sep 23 15:26:27	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 15:26:28	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=10014 request_id=21e0d897833750fa2b46e4491617b4c0 response_code=200
+09 Sep 23 15:27:51	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:29:06	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:29:17	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 15:29:17	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 15:29:17	DEBUG	multipart.py	Calling on_field_data with data[5:1610]
+09 Sep 23 15:29:17	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 15:29:17	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 15:29:17	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 15:29:17	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines Gl\\u00e4ubigerausschusses (\\u00a7 68 InsO), zur Hinterlegungsstelle und zu den Bedingungen zur Anlage und Hinterlegung von Geld, Wertpapieren und Kostbarkeiten (\\u00a7 149 InsO), zur Zwischenrechnungslegung gegen\\u00fcber der Gl\\u00e4ubigerversammlung (\\u00a7 66 Abs. 3 InsO), zur Entscheidung \\u00fcber den Fortgang des Verfahrens (\\u00a7 157 InsO). "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 15:29:17	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 15:29:17	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 15:29:30	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 15:29:30	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7116 request_id=2c0423275bf5c709fd3f81e785214a27 response_code=200
+09 Sep 23 15:36:47	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:37:35	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:38:07	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 15:38:07	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 15:38:07	DEBUG	multipart.py	Calling on_field_data with data[5:1610]
+09 Sep 23 15:38:07	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 15:38:07	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 15:38:07	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 15:38:07	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines Gl\\u00e4ubigerausschusses (\\u00a7 68 InsO), zur Hinterlegungsstelle und zu den Bedingungen zur Anlage und Hinterlegung von Geld, Wertpapieren und Kostbarkeiten (\\u00a7 149 InsO), zur Zwischenrechnungslegung gegen\\u00fcber der Gl\\u00e4ubigerversammlung (\\u00a7 66 Abs. 3 InsO), zur Entscheidung \\u00fcber den Fortgang des Verfahrens (\\u00a7 157 InsO). "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 15:38:07	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 15:38:07	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 15:38:19	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 15:38:19	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=9660 request_id=9b7b39ba8269c3ca07ea57a13f37d1f9 response_code=200
+09 Sep 23 15:40:59	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:42:18	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:42:54	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:43:43	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:45:00	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:45:22	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:46:09	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:46:40	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:47:03	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:47:16	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:47:57	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 15:57:02	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 16:00:03	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 16:00:15	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 16:00:15	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 16:00:15	DEBUG	multipart.py	Calling on_field_data with data[5:1234]
+09 Sep 23 16:00:15	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 16:00:15	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 16:00:15	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 16:00:15	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 16:00:15	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 16:00:15	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 16:00:26	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 16:00:26	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=10419 request_id=b85d2dffb9ee66dffe0e32bc85285168 response_code=200
+09 Sep 23 16:01:02	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 16:01:10	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 16:01:10	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 16:01:10	DEBUG	multipart.py	Calling on_field_data with data[5:1234]
+09 Sep 23 16:01:10	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 16:01:10	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 16:01:10	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 16:01:10	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 16:01:10	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 16:01:10	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 16:01:20	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 16:01:20	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=8799 request_id=2b496c83b3b9ab43bc639223fef05c4c response_code=200
+09 Sep 23 16:02:31	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 16:02:48	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 16:02:48	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 16:02:48	DEBUG	multipart.py	Calling on_field_data with data[5:1234]
+09 Sep 23 16:02:48	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 16:02:48	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 16:02:48	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 16:02:48	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 16:02:48	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 16:02:48	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 16:02:58	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 16:02:58	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=8939 request_id=774c1441c2836ae7d7a9103650ff94af response_code=200
+09 Sep 23 16:06:05	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 16:06:14	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 16:06:14	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 16:06:14	DEBUG	multipart.py	Calling on_field_data with data[5:1234]
+09 Sep 23 16:06:14	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 16:06:14	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 16:06:14	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 16:06:14	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 16:06:14	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 16:06:14	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 16:06:27	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 16:06:27	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=10154 request_id=226e263264d3797a41f3a7872a40c10f response_code=200
+09 Sep 23 16:08:03	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 16:08:15	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 16:08:15	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 16:08:15	DEBUG	multipart.py	Calling on_field_data with data[5:1234]
+09 Sep 23 16:08:15	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 16:08:15	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 16:08:15	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 16:08:15	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 16:08:15	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 16:08:15	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 16:08:27	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 16:08:27	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=10657 request_id=33409e7e10536d8407a5185b4652c406 response_code=200
+09 Sep 23 16:11:04	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 16:11:18	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 16:11:18	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 16:11:18	DEBUG	multipart.py	Calling on_field_data with data[5:1234]
+09 Sep 23 16:11:18	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 16:11:18	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 16:11:18	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 16:11:18	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 16:11:18	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 16:11:18	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 16:11:27	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 16:11:27	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7654 request_id=2eb08990470ef9ccd85346acbab55042 response_code=200
+09 Sep 23 17:17:59	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:20:49	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:31:45	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:33:03	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 17:33:03	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 17:33:03	DEBUG	multipart.py	Calling on_field_data with data[5:18558]
+09 Sep 23 17:33:03	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 17:33:03	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 17:33:03	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 17:33:03	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: <div id=\\"SITE_CONTAINER\\"><div id=\\"main_MF\\" class=\\"wix-global-css\\"><div id=\\"SCROLL_TO_TOP\\" class=\\"Vd6aQZ ignore-focus SCROLL_TO_TOP\\" tabindex=\\"-1\\" role=\\"region\\" aria-label=\\"top of page\\"><span class=\\"mHZSwn\\">top of page</span></div><div id=\\"WIX_ADS\\" class=\\"WIX_ADS L27qsU c7bzh_\\"><a data-testid=\\"linkElement\\" href=\\"//www.wix.com/lpviral/enviral?utm_campaign=vir_wixad_live&amp;adsVersion=white&amp;orig_msid=50ad27a1-0bae-4346-9c02-682059f5db0b\\" target=\\"_blank\\" rel=\\"nofollow\\" class=\\"Oxzvyr YD5pSO has-custom-focus\\"><span class=\\"aGHwBE\\"><span class=\\"areOb6\\">This site was designed with the <div data-testid=\\"bannerLogo\\" style=\\"direction:ltr;display:inline-flex\\"><div><svg class=\\"e5cW_9\\" viewBox=\\"0 0 28 10.89\\" aria-label=\\"wix\\"><path d=\\"M16.02.2c-.55.3-.76.78-.76 2.14a2.17 2.17 0 0 1 .7-.42 3 3 0 0 0 .7-.4A1.62 1.62 0 0 0 17.22 0a3 3 0 0 0-1.18.2z\\" class=\\"o4sLYL\\"></path><path d=\\"M12.77.52a2.12 2.12 0 0 0-.58 1l-1.5 5.8-1.3-4.75a4.06 4.06 0 0 0-.7-1.55 2.08 2.08 0 0 0-2.9 0 4.06 4.06 0 0 0-.7 1.55L3.9 7.32l-1.5-5.8a2.12 2.12 0 0 0-.6-1A2.6 2.6 0 0 0 0 .02l2.9 10.83a3.53 3.53 0 0 0 1.42-.17c.62-.33.92-.57 1.3-2 .33-1.33 1.26-5.2 1.35-5.47a.5.5 0 0 1 .34-.4.5.5 0 0 1 .4.5c.1.3 1 4.2 1.4 5.5.4 1.5.7 1.7 1.3 2a3.53 3.53 0 0 0 1.4.2l2.8-11a2.6 2.6 0 0 0-1.82.53zm4.43 1.26a1.76 1.76 0 0 1-.58.5c-.26.16-.52.26-.8.4a.82.82 0 0 0-.57.82v7.36a2.47 2.47 0 0 0 1.2-.15c.6-.3.75-.6.75-2V1.8zm7.16 3.68L28 .06a3.22 3.22 0 0 0-2.3.42 8.67 8.67 0 0 0-1 1.24l-1.34 1.93a.3.3 0 0 1-.57 0l-1.4-1.93a8.67 8.67 0 0 0-1-1.24 3.22 3.22 0 0 0-2.3-.43l3.6 5.4-3.7 5.4a3.54 3.54 0 0 0 2.32-.48 7.22 7.22 0 0 0 1-1.16l1.33-1.9a.3.3 0 0 1 .57 0l1.37 2a8.2 8.2 0 0 0 1 1.2 3.47 3.47 0 0 0 2.33.5z\\"></path></svg></div><div class=\\"uJDaUS\\">.com</div></div> website builder. Create your website today.</span><span class=\\"O0tKs2 Oxzvyr\\">Start Now</span></span></a></div><div id=\\"BACKGROUND_GROUP\\" class=\\"BACKGROUND_GROUP\\"><div id=\\"BACKGROUND_GROUP_TRANSITION_GROUP\\"><div id=\\"pageBackground_ftaq2\\" data-media-height-override-type=\\"\\" data-media-position-override=\\"false\\" class=\\"pageBackground_ftaq2 BmZ5pC\\"><div id=\\"bgLayers_pageBackground_ftaq2\\" data-hook=\\"bgLayers\\" class=\\"MW5IWV\\"><div data-testid=\\"colorUnderlay\\" class=\\"LWbAav Kv1aVt\\"></div><div id=\\"bgMedia_pageBackground_ftaq2\\" class=\\"VgO9Yg\\"></div><div data-testid=\\"bgOverlay\\" class=\\"m4khSP\\"></div></div></div></div></div><div id=\\"site-root\\" class=\\"site-root\\"><div id=\\"masterPage\\" class=\\"mesh-layout masterPage css-editing-scope\\"><header class=\\"SITE_HEADER_WRAPPER\\" tabindex=\\"-1\\" id=\\"SITE_HEADER_WRAPPER\\"><div id=\\"SITE_HEADER\\" class=\\"tcsOnZ SITE_HEADER wixui-header\\" tabindex=\\"-1\\"><div class=\\"PVTOEq\\"></div><div><div><div data-mesh-id=\\"SITE_HEADERinlineContent\\" data-testid=\\"inline-content\\" class=\\"\\"><div data-mesh-id=\\"SITE_HEADERinlineContent-gridContainer\\" data-testid=\\"mesh-container-content\\"><div id=\\"comp-lmc02ffe\\" class=\\"MazNVa comp-lmc02ffe wixui-image rYiAuL\\" title=\\"ea9451_498bdbf699804f21b5f0ecc9d537a682~mv2.png\\"><a data-testid=\\"linkElement\\" href=\\"https://lexilinker.wixsite.com/lexilinker\\" target=\\"_self\\" class=\\"j7pOnl\\"><wow-image id=\\"img_comp-lmc02ffe\\" class=\\"HlRz5e BI8PVQ\\" data-image-info=\\"{&quot;containerId&quot;:&quot;comp-lmc02ffe&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:159,&quot;targetHeight&quot;:84,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:600,&quot;height&quot;:317,&quot;uri&quot;:&quot;ea9451_498bdbf699804f21b5f0ecc9d537a682~mv2.png&quot;,&quot;name&quot;:&quot;LexiLinker_1_-removebg - cut.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}\\" data-bg-effect-name=\\"\\" data-has-ssr-src=\\"\\"><img src=\\"https://static.wixstatic.com/media/ea9451_498bdbf699804f21b5f0ecc9d537a682~mv2.png/v1/fill/w_159,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LexiLinker_1_-removebg%20-%20cut.png\\" alt=\\"LexiLinker_1_-removebg - cut.png\\" style=\\"width:159px;height:84px;object-fit:cover\\" width=\\"159\\" height=\\"84\\" srcSet=\\"https://static.wixstatic.com/media/ea9451_498bdbf699804f21b5f0ecc9d537a682~mv2.png/v1/fill/w_159,h_84,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LexiLinker_1_-removebg%20-%20cut.png 1x, https://static.wixstatic.com/media/ea9451_498bdbf699804f21b5f0ecc9d537a682~mv2.png/v1/fill/w_318,h_168,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LexiLinker_1_-removebg%20-%20cut.png 2x\\" fetchpriority=\\"high\\"/></wow-image></a></div><div id=\\"comp-lmbziie5\\" class=\\"KcpHeO tz5f0K comp-lmbziie5 wixui-rich-text\\" data-testid=\\"richTextElement\\"><h3 class=\\"font_3 wixui-rich-text__text\\" style=\\"font-size:50px;\\"><a href=\\"https://lexilinker.wixsite.com/lexilinker\\" target=\\"_self\\" class=\\"wixui-rich-text__text\\"><span style=\\"color:#E05E59;\\" class=\\"wixui-rich-text__text\\"><span style=\\"font-family:verdana,geneva,sans-serif;\\" class=\\"wixui-rich-text__text\\"><span style=\\"font-size:50px;\\" class=\\"wixui-rich-text__text\\">LexiLinker</span></span></span></a></h3></div><div id=\\"comp-lmc0erur\\" class=\\"MazNVa comp-lmc0erur wixui-image rYiAuL\\" title=\\"ea9451_c5ec6e49f296410aacd25122bd8b7671~mv2.png\\"><a data-testid=\\"linkElement\\" href=\\"https://lexilinker.wixsite.com/lexilinker\\" target=\\"_self\\" class=\\"j7pOnl\\"><wow-image id=\\"img_comp-lmc0erur\\" class=\\"HlRz5e BI8PVQ\\" data-image-info=\\"{&quot;containerId&quot;:&quot;comp-lmc0erur&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:73,&quot;targetHeight&quot;:41,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:600,&quot;height&quot;:341,&quot;uri&quot;:&quot;ea9451_c5ec6e49f296410aacd25122bd8b7671~mv2.png&quot;,&quot;name&quot;:&quot;German flag.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}\\" data-bg-effect-name=\\"\\" data-has-ssr-src=\\"\\"><img src=\\"https://static.wixstatic.com/media/ea9451_c5ec6e49f296410aacd25122bd8b7671~mv2.png/v1/fill/w_73,h_41,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/German%20flag.png\\" alt=\\"German flag.png\\" style=\\"width:73px;height:41px;object-fit:cover\\" width=\\"73\\" height=\\"41\\" srcSet=\\"https://static.wixstatic.com/media/ea9451_c5ec6e49f296410aacd25122bd8b7671~mv2.png/v1/fill/w_73,h_41,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/German%20flag.png 1x, https://static.wixstatic.com/media/ea9451_c5ec6e49f296410aacd25122bd8b7671~mv2.png/v1/fill/w_146,h_82,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/German%20flag.png 2x\\" fetchpriority=\\"high\\"/></wow-image></a></div><div id=\\"comp-lmc0evvs\\" class=\\"MazNVa comp-lmc0evvs wixui-image rYiAuL\\" title=\\"ea9451_14474410fb7c4fa8ba14f9aed202cc93~mv2.png\\"><a data-testid=\\"linkElement\\" href=\\"https://lexilinker.wixsite.com/lexilinker/turkish-version\\" target=\\"_self\\" class=\\"j7pOnl\\"><wow-image id=\\"img_comp-lmc0evvs\\" class=\\"HlRz5e BI8PVQ\\" data-image-info=\\"{&quot;containerId&quot;:&quot;comp-lmc0evvs&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:65,&quot;targetHeight&quot;:41,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:600,&quot;height&quot;:380,&quot;uri&quot;:&quot;ea9451_14474410fb7c4fa8ba14f9aed202cc93~mv2.png&quot;,&quot;name&quot;:&quot;Turkish flag.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}\\" data-bg-effect-name=\\"\\" data-has-ssr-src=\\"\\"><img src=\\"https://static.wixstatic.com/media/ea9451_14474410fb7c4fa8ba14f9aed202cc93~mv2.png/v1/fill/w_65,h_41,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Turkish%20flag.png\\" alt=\\"Turkish flag.png\\" style=\\"width:65px;height:41px;object-fit:cover\\" width=\\"65\\" height=\\"41\\" srcSet=\\"https://static.wixstatic.com/media/ea9451_14474410fb7c4fa8ba14f9aed202cc93~mv2.png/v1/fill/w_65,h_41,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Turkish%20flag.png 1x, https://static.wixstatic.com/media/ea9451_14474410fb7c4fa8ba14f9aed202cc93~mv2.png/v1/fill/w_130,h_82,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Turkish%20flag.png 2x\\" fetchpriority=\\"high\\"/></wow-image></a></div><div id=\\"comp-lmc04yjc\\" class=\\"comp-lmc04yjc aVng1S wixui-horizontal-line\\"></div></div></div></div></div></div></header><div id=\\"SITE_HEADER-placeholder\\" class=\\"SITE_HEADER-placeholder\\"></div><main id=\\"PAGES_CONTAINER\\" class=\\"PAGES_CONTAINER\\" tabindex=\\"-1\\" data-main-content=\\"true\\"><div id=\\"SITE_PAGES\\" data-page-transition=\\"OutIn\\" class=\\"JshATs SITE_PAGES\\"><div id=\\"SITE_PAGES_TRANSITION_GROUP\\" class=\\"fcNEqv\\"><div id=\\"ftaq2\\" class=\\"dBAkHi ftaq2\\"><div class=\\"PFkO7r wixui-page\\" data-testid=\\"page-bg\\"></div><div class=\\"HT5ybB\\"><div id=\\"Containerftaq2\\" class=\\"Containerftaq2 SPY_vo\\"><div data-mesh-id=\\"Containerftaq2inlineContent\\" data-testid=\\"inline-content\\" class=\\"\\"><div data-mesh-id=\\"Containerftaq2inlineContent-gridContainer\\" data-testid=\\"mesh-container-content\\"><section id=\\"comp-lmbxupzc\\" tabindex=\\"-1\\" class=\\"Oqnisf comp-lmbxupzc wixui-section\\"><div id=\\"bgLayers_comp-lmbxupzc\\" data-hook=\\"bgLayers\\" class=\\"MW5IWV\\"><div data-testid=\\"colorUnderlay\\" class=\\"LWbAav Kv1aVt\\"></div><div id=\\"bgMedia_comp-lmbxupzc\\" class=\\"VgO9Yg\\"></div></div><div data-mesh-id=\\"comp-lmbxupzcinlineContent\\" data-testid=\\"inline-content\\" class=\\"\\"><div data-mesh-id=\\"comp-lmbxupzcinlineContent-gridContainer\\" data-testid=\\"mesh-container-content\\"><div id=\\"comp-lmc264b1\\" class=\\"MazNVa comp-lmc264b1 wixui-image\\" title=\\"ea9451_0a68f5a9d02b44bd8c29bbcfcd33fa1d~mv2.png\\"><div data-testid=\\"linkElement\\" class=\\"j7pOnl\\"><wow-image id=\\"img_comp-lmc264b1\\" class=\\"HlRz5e BI8PVQ\\" data-image-info=\\"{&quot;containerId&quot;:&quot;comp-lmc264b1&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:152,&quot;targetHeight&quot;:150,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:285,&quot;height&quot;:281,&quot;uri&quot;:&quot;ea9451_0a68f5a9d02b44bd8c29bbcfcd33fa1d~mv2.png&quot;,&quot;name&quot;:&quot;Lexi.png&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}\\" data-bg-effect-name=\\"\\" data-has-ssr-src=\\"\\"><img src=\\"https://static.wixstatic.com/media/ea9451_0a68f5a9d02b44bd8c29bbcfcd33fa1d~mv2.png/v1/fill/w_152,h_150,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Lexi.png\\" alt=\\"Lexi.png\\" style=\\"width:152px;height:150px;object-fit:cover\\" width=\\"152\\" height=\\"150\\" srcSet=\\"https://static.wixstatic.com/media/ea9451_0a68f5a9d02b44bd8c29bbcfcd33fa1d~mv2.png/v1/fill/w_152,h_150,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Lexi.png 1x, https://static.wixstatic.com/media/ea9451_0a68f5a9d02b44bd8c29bbcfcd33fa1d~mv2.png/v1/fill/w_304,h_300,al_c,lg_1,q_85,enc_auto/Lexi.png 2x\\" fetchpriority=\\"high\\"/></wow-image></div></div><div id=\\"comp-lmc29zzi\\" class=\\"KcpHeO tz5f0K comp-lmc29zzi wixui-rich-text\\" data-testid=\\"richTextElement\\"><p class=\\"font_2 wixui-rich-text__text\\" style=\\"font-size:24px; line-height:1.3em;\\"><span style=\\"color:#E05E59;\\" class=\\"wixui-rich-text__text\\"><span style=\\"font-size:30px;\\" class=\\"wixui-rich-text__text\\"><span style=\\"font-family:verdana,geneva,sans-serif;\\" class=\\"wixui-rich-text__text\\"><span style=\\"letter-spacing:0em;\\" class=\\"wixui-rich-text__text\\"><span style=\\"font-weight:bold;\\" class=\\"wixui-rich-text__text\\">&quot;</span></span></span></span></span><span style=\\"font-size:24px;\\" class=\\"wixui-rich-text__text\\"><span style=\\"font-family:verdana,geneva,sans-serif;\\" class=\\"wixui-rich-text__text\\"><span class=\\"color_15 wixui-rich-text__text\\"><span style=\\"letter-spacing:0em;\\" class=\\"wixui-rich-text__text\\">Hey, ich bin Lexi!</span></span></span></span></p>\\r\\n\\r\\n<p class=\\"font_2 wixui-rich-text__text\\" style=\\"font-size:24px; line-height:1.3em;\\"><span style=\\"font-size:24px;\\" class=\\"wixui-rich-text__text\\"><span style=\\"font-family:verdana,geneva,sans-serif;\\" class=\\"wixui-rich-text__text\\"><span class=\\"color_15 wixui-rich-text__text\\"><span style=\\"letter-spacing:0em;\\" class=\\"wixui-rich-text__text\\"><span class=\\"wixGuard wixui-rich-text__text\\">\\u200b</span></span></span></span></span></p>\\r\\n\\r\\n<p class=\\"font_2 wixui-rich-text__text\\" style=\\"font-size:24px; line-height:1.3em;\\"><span style=\\"font-size:24px;\\" class=\\"wixui-rich-text__text\\"><span style=\\"font-family:verdana,geneva,sans-serif;\\" class=\\"wixui-rich-text__text\\"><span class=\\"color_15 wixui-rich-text__text\\"><span style=\\"letter-spacing:0em;\\" class=\\"wixui-rich-text__text\\">Dir f&auml;llt es auch so schwer wie mir, juristische Texte zu verstehen? Dann bist du hier genau richtig!</span></span></span></span><span style=\\"color:#E05E59;\\" class=\\"wixui-rich-text__text\\"><span style=\\"font-size:30px;\\" class=\\"wixui-rich-text__text\\"><span style=\\"font-family:verdana,geneva,sans-serif;\\" class=\\"wixui-rich-text__text\\"><span style=\\"letter-spacing:0em;\\" class=\\"wixui-rich-text__text\\"><span style=\\"font-weight:bold;\\" class=\\"wixui-rich-text__text\\">&quot;</span></span></span></span></span></p></div><div id=\\"comp-lmc2jigj\\" class=\\"comp-lmc2jigj aVng1S wixui-horizontal-line\\"></div><div id=\\"comp-lmbxv0tf\\" class=\\"comp-lmbxv0tf _xg6_p\\"></div><div id=\\"comp-lmc3knmy\\" class=\\"comp-lmc3knmy aVng1S wixui-horizontal-line\\"></div><div id=\\"comp-lmc3knmt\\" class=\\"comp-lmc3knmt wixui-vector-image\\"><div data-testid=\\"svgRoot-comp-lmc3knmt\\" class=\\"aizuI7 TcoJIb comp-lmc3knmt\\"><svg preserveAspectRatio=\\"xMidYMid meet\\" data-bbox=\\"39 39.5 122 121\\" viewBox=\\"39 39.5 122 121\\" height=\\"200\\" width=\\"200\\" xmlns=\\"http://www.w3.org/2000/svg\\" data-type=\\"color\\" role=presentation aria-hidden=true><defs><style>#comp-lmc3knmt svg [data-color=\\"1\\"] {fill: #E05E59;}</style></defs>\\r\\n    <g>\\r\\n        <path d=\\"M100 160.5c-33.636 0-61-27.142-61-60.502C39 66.639 66.364 39.5 100 39.5c33.634 0 61 27.139 61 60.498 0 33.36-27.366 60.502-61 60.502zm0-112.573c-28.951 0-52.506 23.359-52.506 52.071 0 28.718 23.554 52.079 52.506 52.079 28.953 0 52.505-23.361 52.505-52.079.001-28.712-23.552-52.071-52.505-52.071z\\" fill=\\"#2F54DD\\" data-color=\\"1\\"/>\\r\\n        <path d=\\"M104.244 118.815h-8.492v-6.817c0-7.491 5.638-12.982 10.167-17.395.453-.444.901-.878 1.335-1.311a10.063 10.063 0 0 0 3.008-7.197c0-5.611-4.602-10.176-10.264-10.176-5.658 0-10.262 4.564-10.262 10.176h-8.495c0-10.256 8.414-18.601 18.757-18.601s18.759 8.345 18.759 18.601c0 4.968-1.952 9.64-5.496 13.154-.453.449-.916.902-1.389 1.362-3.751 3.653-7.628 7.427-7.628 11.386v6.818z\\" fill=\\"#2F54DD\\" data-color=\\"1\\"/>\\r\\n        <path fill=\\"#2F54DD\\" d=\\"M104.244 126.709v8.42h-8.49v-8.42h8.49z\\" data-color=\\"1\\"/>\\r\\n    </g>\\r\\n</svg>\\r\\n</div></div><div id=\\"comp-lmc3knmh\\" class=\\"KcpHeO tz5f0K comp-lmc3knmh wixui-rich-text\\" data-testid=\\"richTextElement\\"><p class=\\"font_2 wixui-rich-text__text\\" style=\\"font-size:24px; line-height:1.3em;\\"><span style=\\"font-size:24px;\\" class=\\"wixui-rich-text__text\\"><span style=\\"font-family:verdana,geneva,sans-serif;\\" class=\\"wixui-rich-text__text\\"><span class=\\"color_15 wixui-rich-text__text\\"><span style=\\"letter-spacing:0em;\\" class=\\"wixui-rich-text__text\\">Du bist dir unsicher, ob Lexi dir helfen kann?</span></span></span></span></p>\\r\\n"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 17:33:03	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 17:33:03	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 17:33:04	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 400 281
+09 Sep 23 17:33:04	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=27 request_id=a9957f99beae400785fc516f297fa4d6 response_code=400
+09 Sep 23 17:33:04	INFO	util.py	error_code=context_length_exceeded error_message="This model's maximum context length is 4097 tokens. However, your messages resulted in 5835 tokens. Please reduce the length of the messages." error_param=messages error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+09 Sep 23 17:33:15	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 17:33:15	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 17:33:15	DEBUG	multipart.py	Calling on_field_data with data[5:21]
+09 Sep 23 17:33:15	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 17:33:15	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 17:33:15	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 17:33:15	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: das ist ein test"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 17:33:17	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 17:33:17	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1168 request_id=06ab0b2c1977761ec4e29c9fb5bb941c response_code=200
+09 Sep 23 17:34:05	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:34:11	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 17:34:11	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 17:34:11	DEBUG	multipart.py	Calling on_field_data with data[5:21]
+09 Sep 23 17:34:11	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 17:34:11	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 17:34:11	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 17:34:11	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: das ist ein test"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 17:34:11	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 17:34:11	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 17:34:14	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 17:34:14	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1165 request_id=216b06ea2e059b6087b315eb9d7d25a1 response_code=200
+09 Sep 23 17:34:37	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:37:07	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:37:22	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:37:39	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:38:22	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:39:02	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:40:06	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:40:27	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:46:17	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:47:13	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:50:15	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:50:31	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 17:50:31	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 17:50:31	DEBUG	multipart.py	Calling on_field_data with data[5:14]
+09 Sep 23 17:50:31	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 17:50:31	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 17:50:31	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 17:50:31	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: dummy txt"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 17:50:31	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 17:50:31	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 17:50:33	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 17:50:33	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1024 request_id=1a469253edeb7bc782ffb517c3e7a8b7 response_code=200
+09 Sep 23 17:51:50	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:52:08	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:52:26	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:54:29	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:56:07	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:57:09	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 17:58:21	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:05:04	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:06:46	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:07:01	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:08:06	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:09:06	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 18:09:06	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 18:09:06	DEBUG	multipart.py	Calling on_field_data with data[5:22]
+09 Sep 23 18:09:06	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 18:09:06	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 18:09:06	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 18:09:06	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: das ist mein text"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 18:09:06	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 18:09:06	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 18:09:10	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 18:09:10	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1908 request_id=ede5e5c50299968705785ea80e8c6395 response_code=200
+09 Sep 23 18:10:59	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 18:10:59	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 18:10:59	DEBUG	multipart.py	Calling on_field_data with data[5:1234]
+09 Sep 23 18:10:59	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 18:10:59	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 18:10:59	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 18:10:59	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 18:11:08	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 18:11:08	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=8614 request_id=00b7538c98405af6ba0c2fb01c050030 response_code=200
+09 Sep 23 18:13:55	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:15:09	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:15:23	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:16:21	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:17:21	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:17:36	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:17:49	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:19:18	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:19:56	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:21:20	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:25:53	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:26:31	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 18:26:31	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 18:26:31	DEBUG	multipart.py	Calling on_field_data with data[5:1234]
+09 Sep 23 18:26:31	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 18:26:31	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 18:26:31	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 18:26:31	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. Bis zu diesem Zeitpunkt k\\u00f6nnen die Gl\\u00e4ubiger schriftliche Stellungnahmen bei Gericht einreichen zur Person des Insolvenzverwalters, zur Einsetzung und Besetzung eines"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 18:26:31	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 18:26:31	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 18:26:43	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 18:26:43	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=10098 request_id=96945d50abe719f98bb9b2dfcb12d7cf response_code=200
+09 Sep 23 18:27:20	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 18:27:20	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 18:27:20	DEBUG	multipart.py	Calling on_field_data with data[5:818]
+09 Sep 23 18:27:20	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 18:27:20	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 18:27:20	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 18:27:20	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 18:27:27	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 18:27:27	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7248 request_id=bf7bf18a1a3afd91290e8c869d1169c1 response_code=200
+09 Sep 23 18:29:50	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+09 Sep 23 18:32:54	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 18:32:54	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 18:32:54	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 18:32:54	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 18:32:54	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 18:32:54	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 18:32:54	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 18:32:54	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 18:32:54	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 18:33:04	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 18:33:04	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=8742 request_id=261a6a808c27983036a652f2b248d4f9 response_code=200
+09 Sep 23 18:33:14	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 18:33:14	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 18:33:14	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 18:33:14	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 18:33:14	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 18:33:14	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 18:33:14	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 18:33:23	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 18:33:23	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=8615 request_id=d168d7fb0ef633d29eeb2539273b1fe1 response_code=200
+09 Sep 23 18:34:20	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:34:41	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:34:56	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:35:36	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:35:50	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:36:59	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:37:11	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:37:23	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:39:03	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:40:38	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:41:21	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:42:38	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 18:43:24	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 19:58:44	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 20:03:09	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 20:03:25	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 20:03:38	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 20:04:31	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 20:04:53	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:04:53	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 20:04:53	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 20:04:53	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:04:53	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:04:53	DEBUG	multipart.py	Calling on_field_name with data[1057:1067]
+09 Sep 23 20:04:53	DEBUG	multipart.py	Calling on_field_data with data[1068:1078]
+09 Sep 23 20:04:53	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:04:53	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 20:04:53	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 20:04:53	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 20:04:53	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 20:04:53	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 20:05:02	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 20:05:02	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7992 request_id=9473156a9297fbde43590ef4cf01e284 response_code=200
+09 Sep 23 20:18:38	INFO	main.py	legal translator: Finished initializing
+09 Sep 23 20:21:59	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:21:59	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 20:21:59	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 20:21:59	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:21:59	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:21:59	DEBUG	multipart.py	Calling on_field_name with data[1057:1067]
+09 Sep 23 20:21:59	DEBUG	multipart.py	Calling on_field_data with data[1068:1078]
+09 Sep 23 20:21:59	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:21:59	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 20:21:59	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 20:21:59	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 20:21:59	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 20:21:59	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 20:22:07	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 20:22:07	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7047 request_id=2850a8797ac3159d31acfe73b600a7d4 response_code=200
+09 Sep 23 20:22:23	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:22:23	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 20:22:23	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 20:22:23	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:22:23	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:22:23	DEBUG	multipart.py	Calling on_field_name with data[1057:1067]
+09 Sep 23 20:22:23	DEBUG	multipart.py	Calling on_field_data with data[1068:1078]
+09 Sep 23 20:22:23	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:22:23	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 20:22:23	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 20:22:23	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 20:22:31	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 20:22:31	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7994 request_id=e205d24a5160721218fa494cc3038940 response_code=200
+09 Sep 23 20:22:51	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:22:51	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 20:22:51	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 20:22:51	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:22:51	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:22:51	DEBUG	multipart.py	Calling on_field_name with data[1057:1067]
+09 Sep 23 20:22:51	DEBUG	multipart.py	Calling on_field_data with data[1068:1078]
+09 Sep 23 20:22:51	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:22:51	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 20:22:51	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 20:22:51	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 20:22:59	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 20:22:59	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7223 request_id=497ace4ead9db9d01bcada3f2a83dd5c response_code=200
+09 Sep 23 20:25:02	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:25:02	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 20:25:02	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 20:25:02	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:25:02	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:25:02	DEBUG	multipart.py	Calling on_field_name with data[1057:1067]
+09 Sep 23 20:25:02	DEBUG	multipart.py	Calling on_field_data with data[1068:1078]
+09 Sep 23 20:25:02	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:25:02	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 20:25:02	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 20:25:02	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 20:25:02	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 20:25:02	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 20:25:10	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 20:25:10	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6875 request_id=b8373c6829870dc9665fa7c9381e04f1 response_code=200
+09 Sep 23 20:26:08	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:26:08	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 20:26:08	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 20:26:08	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:26:08	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:26:08	DEBUG	multipart.py	Calling on_field_name with data[1057:1067]
+09 Sep 23 20:26:08	DEBUG	multipart.py	Calling on_field_data with data[1068:1078]
+09 Sep 23 20:26:08	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:26:08	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 20:26:08	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 20:26:08	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 20:26:15	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 20:26:15	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7043 request_id=f56ceeb14e1b0d4c3b82282bc6093ea8 response_code=200
+09 Sep 23 20:26:31	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:26:31	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 20:26:31	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 20:26:31	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:26:31	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:26:31	DEBUG	multipart.py	Calling on_field_name with data[1057:1067]
+09 Sep 23 20:26:31	DEBUG	multipart.py	Calling on_field_data with data[1068:1078]
+09 Sep 23 20:26:31	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:26:31	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 20:26:31	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 20:26:31	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 20:26:39	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 20:26:39	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6963 request_id=b980ae562f3d2e7e13c5050b6d6f1555 response_code=200
+09 Sep 23 20:27:19	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:27:19	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 20:27:19	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 20:27:19	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:27:19	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:27:19	DEBUG	multipart.py	Calling on_field_name with data[1057:1067]
+09 Sep 23 20:27:19	DEBUG	multipart.py	Calling on_field_data with data[1068:1078]
+09 Sep 23 20:27:19	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:27:19	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 20:27:19	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 20:27:19	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 20:27:26	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 20:27:26	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6847 request_id=35ac39ed8f580d39110bd9002f8f9136 response_code=200
+09 Sep 23 20:28:29	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:28:29	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 20:28:29	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 20:28:29	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:28:29	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:28:29	DEBUG	multipart.py	Calling on_field_name with data[1057:1067]
+09 Sep 23 20:28:29	DEBUG	multipart.py	Calling on_field_data with data[1068:1078]
+09 Sep 23 20:28:29	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:28:29	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 20:28:29	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 20:28:29	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 20:28:29	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 20:28:29	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 20:28:36	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 20:28:36	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6949 request_id=d62a75bfd4feab2e285b8a5d209ad174 response_code=200
+09 Sep 23 20:30:16	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:30:16	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 20:30:16	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 20:30:16	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:30:16	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:30:16	DEBUG	multipart.py	Calling on_field_name with data[1057:1067]
+09 Sep 23 20:30:16	DEBUG	multipart.py	Calling on_field_data with data[1068:1078]
+09 Sep 23 20:30:16	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:30:16	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 20:30:16	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 20:30:16	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 20:30:23	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 20:30:23	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7004 request_id=01fc4472121bb0b5498a0dd28d98784e response_code=200
+09 Sep 23 20:42:58	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:42:58	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 20:42:58	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+09 Sep 23 20:42:58	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:42:58	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:42:58	DEBUG	multipart.py	Calling on_field_name with data[1057:1067]
+09 Sep 23 20:42:58	DEBUG	multipart.py	Calling on_field_data with data[1068:1078]
+09 Sep 23 20:42:58	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:42:58	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 20:42:58	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 20:42:58	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+09 Sep 23 20:42:58	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 20:42:58	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 20:43:06	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 20:43:06	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6798 request_id=0804a1b1ad9be30a3a5fdd0c2ec01151 response_code=200
+09 Sep 23 20:50:12	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:50:12	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+09 Sep 23 20:50:12	DEBUG	multipart.py	Calling on_field_data with data[5:1062]
+09 Sep 23 20:50:12	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:50:12	DEBUG	multipart.py	Calling on_field_start with no data
+09 Sep 23 20:50:12	DEBUG	multipart.py	Calling on_field_name with data[1063:1073]
+09 Sep 23 20:50:12	DEBUG	multipart.py	Calling on_field_data with data[1074:1084]
+09 Sep 23 20:50:12	DEBUG	multipart.py	Calling on_field_end with no data
+09 Sep 23 20:50:12	DEBUG	multipart.py	Calling on_end with no data
+09 Sep 23 20:50:12	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+09 Sep 23 20:50:12	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. \\r\\n"}], "temperature": 0.2}' message='Post details'
+09 Sep 23 20:50:12	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+09 Sep 23 20:50:12	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+09 Sep 23 20:50:20	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+09 Sep 23 20:50:20	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6960 request_id=90f8e59e7462b9b0ca40007fbacb3189 response_code=200
+10 Sep 23 11:22:05	DEBUG	multipart.py	Calling on_field_start with no data
+10 Sep 23 11:22:05	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+10 Sep 23 11:22:05	DEBUG	multipart.py	Calling on_field_data with data[5:1056]
+10 Sep 23 11:22:05	DEBUG	multipart.py	Calling on_field_end with no data
+10 Sep 23 11:22:05	DEBUG	multipart.py	Calling on_field_start with no data
+10 Sep 23 11:22:05	DEBUG	multipart.py	Calling on_field_name with data[1057:1067]
+10 Sep 23 11:22:05	DEBUG	multipart.py	Calling on_field_data with data[1068:1078]
+10 Sep 23 11:22:05	DEBUG	multipart.py	Calling on_field_end with no data
+10 Sep 23 11:22:05	DEBUG	multipart.py	Calling on_end with no data
+10 Sep 23 11:22:05	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+10 Sep 23 11:22:05	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Forderungen der Insolvenzgl\\u00e4ubiger sind bis zum 01.11.2023 unter Beachtung des \\u00a7 174 InsO beim Insolvenzverwalter anzumelden. Die Gl\\u00e4ubiger werden aufgefordert, dem Insolvenzverwalter unverz\\u00fcglich mitzuteilen, welche Sicherungsrechte sie an beweglichen Sachen oder an Rechten der Schuldnerin in Anspruch nehmen. Der Gegenstand, an dem das Sicherungsrecht beansprucht wird, die Art und der Entstehungsgrund des Sicherungsrechts sowie die gesicherte Forderung sind zu bezeichnen. Wer diese Mitteilungen schuldhaft unterl\\u00e4sst oder verz\\u00f6gert, haftet f\\u00fcr den daraus entstehenden Schaden (\\u00a7 28 Abs. 2 InsO). Wer Verpflichtungen gegen\\u00fcber der Schuldnerin hat, wird aufgefordert, nicht mehr an diese zu leisten, sondern nur noch an den Insolvenzverwalter. Auf die Durchf\\u00fchrung eines Berichtstermins (\\u00a7 156 InsO) wird gem\\u00e4\\u00df \\u00a7 29 Abs. 2 S. 2 InsO verzichtet. Stichtag, der dem Pr\\u00fcfungstermin (\\u00a7\\u00a7 29, 176 InsO) entspricht, ist der 01.12.2023. "}], "temperature": 0.2}' message='Post details'
+10 Sep 23 11:22:05	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+10 Sep 23 11:22:05	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+10 Sep 23 11:22:13	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+10 Sep 23 11:22:13	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7567 request_id=046aa15f65c8697867e5d035485b5aaf response_code=200
+10 Sep 23 11:24:12	DEBUG	multipart.py	Calling on_field_start with no data
+10 Sep 23 11:24:12	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+10 Sep 23 11:24:12	DEBUG	multipart.py	Calling on_field_data with data[5:2232]
+10 Sep 23 11:24:12	DEBUG	multipart.py	Calling on_field_end with no data
+10 Sep 23 11:24:12	DEBUG	multipart.py	Calling on_field_start with no data
+10 Sep 23 11:24:12	DEBUG	multipart.py	Calling on_field_name with data[2233:2243]
+10 Sep 23 11:24:12	DEBUG	multipart.py	Calling on_field_data with data[2244:2254]
+10 Sep 23 11:24:12	DEBUG	multipart.py	Calling on_field_end with no data
+10 Sep 23 11:24:12	DEBUG	multipart.py	Calling on_end with no data
+10 Sep 23 11:24:12	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+10 Sep 23 11:24:12	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Rechtsmittelbelehrung: \\r\\nGegen diesen Beschluss steht der Schuldnerin/dem Schuldner das Rechtsmittel der sofortigen Beschwerde gem. \\u00a7 34 Abs. 2 InsO zu. \\r\\nUnbeschadet der oben stehenden Regelung steht der Schuldnerin/dem Schuldner und jedem Gl\\u00e4ubiger gegen die Entscheidung nach Art. 3 Abs. 1 der Verordnung (EU) 2015/848 die sofortige Beschwerde zu, wenn nach Art. 5 Abs. 1 der Verordnung (EU) 2015/848 das Fehlen der internationalen Zust\\u00e4ndigkeit f\\u00fcr die Er\\u00f6ffnung eines Hauptinsolvenzverfahrens ger\\u00fcgt werden soll.\\r\\nDie sofortige Beschwerde ist bei dem Amtsgericht K\\u00f6ln, Luxemburger Str. 101, 50939 K\\u00f6ln in deutscher Sprache durch Einreichung einer Beschwerdeschrift oder zur Niederschrift der Gesch\\u00e4ftsstelle einzulegen. Die Beschwerde kann auch zur Niederschrift der Gesch\\u00e4ftsstelle eines jeden Amtsgerichtes erkl\\u00e4rt werden.\\r\\nDie sofortige Beschwerde muss innerhalb von zwei Wochen eingegangen sein. Dies gilt auch dann, wenn die Beschwerde zur Niederschrift der Gesch\\u00e4ftsstelle eines anderen Amtsgerichtes abgegeben wurde. Die Frist beginnt mit der Zustellung der Entscheidung. \\r\\nDie sofortige Beschwerde muss die Bezeichnung des angefochtenen Beschlusses sowie die Erkl\\u00e4rung enthalten, dass sofortige Beschwerde gegen diesen Beschluss eingelegt wird. Sie ist zu unterzeichnen und soll begr\\u00fcndet werden.\\r\\nHinweis zum elektronischen Rechtsverkehr:\\r\\nDie Einlegung ist auch durch \\u00dcbertragung eines elektronischen Dokuments an die elektronische Poststelle des Gerichts m\\u00f6glich. Das elektronische Dokument muss f\\u00fcr die Bearbeitung durch das Gericht geeignet und mit einer qualifizierten elektronischen Signatur der verantwortenden Person versehen sein oder von der verantwortenden Person signiert und auf einem sicheren \\u00dcbermittlungsweg gem\\u00e4\\u00df \\u00a7 130a ZPO nach n\\u00e4herer Ma\\u00dfgabe der Verordnung \\u00fcber die technischen Rahmenbedingungen des elektronischen Rechtsverkehrs und \\u00fcber das besondere elektronische Beh\\u00f6rdenpostfach (BGBl. 2017 I, S. 3803) eingereicht werden. Weitere Informationen erhalten Sie auf der Internetseite www.justiz.de."}], "temperature": 0.2}' message='Post details'
+10 Sep 23 11:24:21	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+10 Sep 23 11:24:21	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=8536 request_id=626d8fe165b0c21403efc0437450a29c response_code=200
+10 Sep 23 11:27:40	DEBUG	multipart.py	Calling on_field_start with no data
+10 Sep 23 11:27:40	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+10 Sep 23 11:27:40	DEBUG	multipart.py	Calling on_field_data with data[5:2232]
+10 Sep 23 11:27:40	DEBUG	multipart.py	Calling on_field_end with no data
+10 Sep 23 11:27:40	DEBUG	multipart.py	Calling on_field_start with no data
+10 Sep 23 11:27:40	DEBUG	multipart.py	Calling on_field_name with data[2233:2243]
+10 Sep 23 11:27:40	DEBUG	multipart.py	Calling on_field_data with data[2244:2254]
+10 Sep 23 11:27:40	DEBUG	multipart.py	Calling on_field_end with no data
+10 Sep 23 11:27:40	DEBUG	multipart.py	Calling on_end with no data
+10 Sep 23 11:27:40	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+10 Sep 23 11:27:40	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Rechtsmittelbelehrung: \\r\\nGegen diesen Beschluss steht der Schuldnerin/dem Schuldner das Rechtsmittel der sofortigen Beschwerde gem. \\u00a7 34 Abs. 2 InsO zu. \\r\\nUnbeschadet der oben stehenden Regelung steht der Schuldnerin/dem Schuldner und jedem Gl\\u00e4ubiger gegen die Entscheidung nach Art. 3 Abs. 1 der Verordnung (EU) 2015/848 die sofortige Beschwerde zu, wenn nach Art. 5 Abs. 1 der Verordnung (EU) 2015/848 das Fehlen der internationalen Zust\\u00e4ndigkeit f\\u00fcr die Er\\u00f6ffnung eines Hauptinsolvenzverfahrens ger\\u00fcgt werden soll.\\r\\nDie sofortige Beschwerde ist bei dem Amtsgericht K\\u00f6ln, Luxemburger Str. 101, 50939 K\\u00f6ln in deutscher Sprache durch Einreichung einer Beschwerdeschrift oder zur Niederschrift der Gesch\\u00e4ftsstelle einzulegen. Die Beschwerde kann auch zur Niederschrift der Gesch\\u00e4ftsstelle eines jeden Amtsgerichtes erkl\\u00e4rt werden.\\r\\nDie sofortige Beschwerde muss innerhalb von zwei Wochen eingegangen sein. Dies gilt auch dann, wenn die Beschwerde zur Niederschrift der Gesch\\u00e4ftsstelle eines anderen Amtsgerichtes abgegeben wurde. Die Frist beginnt mit der Zustellung der Entscheidung. \\r\\nDie sofortige Beschwerde muss die Bezeichnung des angefochtenen Beschlusses sowie die Erkl\\u00e4rung enthalten, dass sofortige Beschwerde gegen diesen Beschluss eingelegt wird. Sie ist zu unterzeichnen und soll begr\\u00fcndet werden.\\r\\nHinweis zum elektronischen Rechtsverkehr:\\r\\nDie Einlegung ist auch durch \\u00dcbertragung eines elektronischen Dokuments an die elektronische Poststelle des Gerichts m\\u00f6glich. Das elektronische Dokument muss f\\u00fcr die Bearbeitung durch das Gericht geeignet und mit einer qualifizierten elektronischen Signatur der verantwortenden Person versehen sein oder von der verantwortenden Person signiert und auf einem sicheren \\u00dcbermittlungsweg gem\\u00e4\\u00df \\u00a7 130a ZPO nach n\\u00e4herer Ma\\u00dfgabe der Verordnung \\u00fcber die technischen Rahmenbedingungen des elektronischen Rechtsverkehrs und \\u00fcber das besondere elektronische Beh\\u00f6rdenpostfach (BGBl. 2017 I, S. 3803) eingereicht werden. Weitere Informationen erhalten Sie auf der Internetseite www.justiz.de."}], "temperature": 0.2}' message='Post details'
+10 Sep 23 11:27:40	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+10 Sep 23 11:27:40	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+10 Sep 23 11:27:50	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+10 Sep 23 11:27:50	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=8689 request_id=4b9dbc757d2af0dae103d10db3b71fcc response_code=200
+10 Sep 23 11:33:22	DEBUG	multipart.py	Calling on_field_start with no data
+10 Sep 23 11:33:22	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+10 Sep 23 11:33:22	DEBUG	multipart.py	Calling on_field_data with data[5:1591]
+10 Sep 23 11:33:22	DEBUG	multipart.py	Calling on_field_end with no data
+10 Sep 23 11:33:22	DEBUG	multipart.py	Calling on_field_start with no data
+10 Sep 23 11:33:22	DEBUG	multipart.py	Calling on_field_name with data[1592:1602]
+10 Sep 23 11:33:22	DEBUG	multipart.py	Calling on_field_data with data[1603:1613]
+10 Sep 23 11:33:22	DEBUG	multipart.py	Calling on_field_end with no data
+10 Sep 23 11:33:22	DEBUG	multipart.py	Calling on_end with no data
+10 Sep 23 11:33:22	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+10 Sep 23 11:33:22	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: I. F\\u00fcr die Designinhaberin ist beim Deutschen Patent- und Markenamt seit\\r\\ndem 3. November 2011 das am 9. September 2011 angemeldete Design\\r\\nNr. 40 2011 004 383-0001 f\\u00fcr die Erzeugnisse \\"S\\u00e4ttel f\\u00fcr Fahrr\\u00e4der oder Motorr\\u00e4der\\" mit folgender einziger Darstellung eingetragen, die die Unterseite eines\\r\\nSattels zeigt:Die Antragstellerin hat am 27. Juli 2016 die Feststellung der Nichtigkeit\\r\\ndes Designs beantragt. Sie macht geltend, dem Design fehlten die Schutzvoraussetzungen der Neuheit und Eigenart. Vor allem sei es nach \\u00a7 4 DesignG vom\\r\\nSchutz ausgeschlossen, weil es als Bauelement der komplexen Erzeugnisse\\r\\n\\"Fahrrad\\" und \\"Motorrad\\" bei deren bestimmungsgem\\u00e4\\u00dfer Verwendung nicht\\r\\nsichtbar sei.\\r\\nDie Designabteilung des Deutschen Patent- und Markenamts hat den Antrag zur\\u00fcckgewiesen. Auf die dagegen gerichtete Beschwerde der Antragstellerin\\r\\nhat das Bundespatentgericht die Nichtigkeit des Designs festgestellt (GRURRR 2020, 246). Hiergegen richtet sich die vom Bundespatentgericht zugelassene\\r\\nRechtsbeschwerde der Designinhaberin, deren Zur\\u00fcckweisung die Antragstellerin beantragt.\\r\\nDer Senat hat dem Gerichtshof der Europ\\u00e4ischen Union zur Auslegung\\r\\nvon Art. 3 Abs. 3 und 4 der Richtlinie 98/71/EG \\u00fcber den rechtlichen Schutz von\\r\\nMustern und Modellen folgende Fragen zur Vorabentscheidung vorgelegt (BGH,\\r\\nBeschluss vom 1. Juli 2021 - I ZB 31/20, GRUR 2021, 1186 = WRP 2021, 1175\\r\\n- Sattelunterseite I):"}], "temperature": 0.2}' message='Post details'
+10 Sep 23 11:33:22	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+10 Sep 23 11:33:22	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+10 Sep 23 11:33:28	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+10 Sep 23 11:33:28	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=4967 request_id=9081ef610e73f9cf9cbe85c36bdaca7c response_code=200
+10 Sep 23 14:31:13	DEBUG	multipart.py	Calling on_field_start with no data
+10 Sep 23 14:31:13	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+10 Sep 23 14:31:13	DEBUG	multipart.py	Calling on_field_data with data[5:5436]
+10 Sep 23 14:31:13	DEBUG	multipart.py	Calling on_field_end with no data
+10 Sep 23 14:31:13	DEBUG	multipart.py	Calling on_field_start with no data
+10 Sep 23 14:31:13	DEBUG	multipart.py	Calling on_field_name with data[5437:5447]
+10 Sep 23 14:31:13	DEBUG	multipart.py	Calling on_field_data with data[5448:5458]
+10 Sep 23 14:31:13	DEBUG	multipart.py	Calling on_field_end with no data
+10 Sep 23 14:31:13	DEBUG	multipart.py	Calling on_end with no data
+10 Sep 23 14:31:13	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+10 Sep 23 14:31:13	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: \\r\\nHaben Gl\\u00e4ubiger vorgetragen, die Forderung stamme aus einer vors\\u00e4tzlich begangenen unerlaubten Handlung des Schuldners, aus einer vors\\u00e4tzlich pflichtwidrigen Verletzung einer gesetzlichen Unterhaltspflicht oder einer Steuerstraftat des Schuldners nach \\u00a7\\u00a7 370, 373 oder \\u00a7 384 der Abgabenordnung so hat der Schuldner im Widerspruch zus\\u00e4tzlich anzugeben, ob er diesen Vortrag bestreitet. \\r\\nEs wird darauf hingewiesen, dass Beschl\\u00fcsse und Anordnungen des Insolvenzgerichts K\\u00f6ln grunds\\u00e4tzlich \\u00fcber die Ver\\u00f6ffentlichung im Internet unter www.insolvenzbekanntmachungen.de bekanntgemacht werden. Dies betrifft etwa die Einberufung weiterer Gl\\u00e4ubigerversammlungen, die Bestimmung besonderer Pr\\u00fcfungstermine und des Schlusstermins, die Aufhebung des Insolvenzverfahrens, die Erteilung oder Versagung der Restschuldbefreiung. Insbesondere die Anh\\u00f6rung der Insolvenzgl\\u00e4ubiger zum Restschuldbefreiungsantrag der Schuldnerin oder des Schuldners nach Ablauf der mit Er\\u00f6ffnung des Insolvenzverfahrens beginnenden dreij\\u00e4hrigen Abtretungsfrist wird allein im Internet bekanntgemacht. \\r\\n\\r\\nDie im elektronischen Informations- und Kommunikationssystem erfolgten Ver\\u00f6ffentlichungen von Daten aus diesem Insolvenzverfahren einschlie\\u00dflich des Er\\u00f6ffnungsverfahrens werden sp\\u00e4testens sechs Monate nach der Aufhebung oder der Rechtskraft der Einstellung des Insolvenzverfahrens gel\\u00f6scht.\\r\\nVer\\u00f6ffentlichungen im Restschuldbefreiungsverfahren einschlie\\u00dflich des Beschlusses nach \\u00a7 289 InsO werden sp\\u00e4testens sechs Monate nach Rechtskraft der Entscheidung \\u00fcber die Restschuldbefreiung gel\\u00f6scht.\\r\\nSonstige Ver\\u00f6ffentlichungen nach der Insolvenzordnung werden einen Monat nach dem ersten Tag der Ver\\u00f6ffentlichung gel\\u00f6scht.\\r\\n\\r\\nDer Insolvenzverwalter wird beauftragt, die nach \\u00a7 30 Abs. 2 InsO zu bewirkenden Zustellungen an die Schuldner des Schuldners (Drittschuldner) sowie an die Gl\\u00e4ubiger durchzuf\\u00fchren (\\u00a7 8 Abs. 3 InsO).\\r\\n\\r\\n\\r\\nGr\\u00fcnde:\\r\\n\\r\\nDie deutschen Gerichte sind f\\u00fcr die Er\\u00f6ffnung eines Hauptinsolvenzverfahrens international zust\\u00e4ndig. Denn der Schuldner hat den Mittelpunkt seiner haupts\\u00e4chlichen Interessen in der Bundesrepublik Deutschland. \\r\\n\\r\\nDas ergibt sich aus Art. 3 Abs. 1 UAbs. 4 der VO (EU) 2015/848. Bei allen nat\\u00fcrlichen Personen, die nicht unter UAbs. 3 fallen, wird bis zum Beweis des Gegenteils vermutet, dass der Mittelpunkt ihrer haupts\\u00e4chlichen Interessen der Ort ihres gew\\u00f6hnlichen Aufenthalts ist. Diese Annahme gilt nur, wenn der gew\\u00f6hnliche Aufenthalt nicht in einem Zeitraum von sechs Monaten vor dem Antrag auf Er\\u00f6ffnung des Insolvenzverfahrens in einen anderen Mitgliedstaat verlegt wurde.\\r\\n\\r\\nEin grenz\\u00fcberschreitender Sachverhalt liegt vor, da zumindest eine Gl\\u00e4ubigerin/ein Gl\\u00e4ubiger ihren/seinen Sitz im Ausland hat (vgl. dazu BeckOK-InsR/Mock, 25. Edition, Stand: 15.10.2021, EuInsVO, 2017, Art. 1 Rn. 20). \\r\\n\\r\\nRechtsmittelbelehrung: \\r\\nGegen diesen Beschluss steht der Schuldnerin/dem Schuldner das Rechtsmittel der sofortigen Beschwerde gem. \\u00a7 34 Abs. 2 InsO zu. \\r\\nUnbeschadet der oben stehenden Regelung steht der Schuldnerin/dem Schuldner und jedem Gl\\u00e4ubiger gegen die Entscheidung nach Art. 3 Abs. 1 der Verordnung (EU) 2015/848 die sofortige Beschwerde zu, wenn nach Art. 5 Abs. 1 der Verordnung (EU) 2015/848 das Fehlen der internationalen Zust\\u00e4ndigkeit f\\u00fcr die Er\\u00f6ffnung eines Hauptinsolvenzverfahrens ger\\u00fcgt werden soll.\\r\\nDie sofortige Beschwerde ist bei dem Amtsgericht K\\u00f6ln, Luxemburger Str. 101, 50939 K\\u00f6ln in deutscher Sprache durch Einreichung einer Beschwerdeschrift oder zur Niederschrift der Gesch\\u00e4ftsstelle einzulegen. Die Beschwerde kann auch zur Niederschrift der Gesch\\u00e4ftsstelle eines jeden Amtsgerichtes erkl\\u00e4rt werden.\\r\\nDie sofortige Beschwerde muss innerhalb von zwei Wochen eingegangen sein. Dies gilt auch dann, wenn die Beschwerde zur Niederschrift der Gesch\\u00e4ftsstelle eines anderen Amtsgerichtes abgegeben wurde. Die Frist beginnt mit der Zustellung der Entscheidung. \\r\\nDie sofortige Beschwerde muss die Bezeichnung des angefochtenen Beschlusses sowie die Erkl\\u00e4rung enthalten, dass sofortige Beschwerde gegen diesen Beschluss eingelegt wird. Sie ist zu unterzeichnen und soll begr\\u00fcndet werden.\\r\\nHinweis zum elektronischen Rechtsverkehr:\\r\\nDie Einlegung ist auch durch \\u00dcbertragung eines elektronischen Dokuments an die elektronische Poststelle des Gerichts m\\u00f6glich. Das elektronische Dokument muss f\\u00fcr die Bearbeitung durch das Gericht geeignet und mit einer qualifizierten elektronischen Signatur der verantwortenden Person versehen sein oder von der verantwortenden Person signiert und auf einem sicheren \\u00dcbermittlungsweg gem\\u00e4\\u00df \\u00a7 130a ZPO nach n\\u00e4herer Ma\\u00dfgabe der Verordnung \\u00fcber die technischen Rahmenbedingungen des elektronischen Rechtsverkehrs und \\u00fcber das besondere elektronische Beh\\u00f6rdenpostfach (BGBl. 2017 I, S. 3803) eingereicht werden. Weitere Informationen erhalten Sie auf der Internetseite www.justiz.de."}], "temperature": 0.2}' message='Post details'
+10 Sep 23 14:31:13	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+10 Sep 23 14:31:13	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+10 Sep 23 14:31:28	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+10 Sep 23 14:31:28	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=13628 request_id=50a7cfbaada70c7a0a14815d8e61db34 response_code=200

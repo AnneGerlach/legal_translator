@@ -1,0 +1,39 @@
+# Web App
+fastapi >= 0.94.0
+pydantic>=1.4.0,<2
+uvicorn[standard]
+jinja2
+python-multipart
+certifi
+openai
+
+# Authentication
+python-jose[cryptography]
+requests
+
+# Environment Variables
+python-dotenv
+
+# Database
+pymongo[srv]
+motor
+
+# Testing
+pytest
+pytest-asyncio
+# pytest-cases
+httpx
+mongomock-motor
+
+# GCP
+google-cloud-core==2.2.2
+google-cloud-logging==3.0.0
+
+# utils
+regex
+toml
+pytz
+
+# Linting
+ruff
+

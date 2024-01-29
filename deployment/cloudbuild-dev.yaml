@@ -1,0 +1,75 @@
+# Build an image, test it, if tests are all green, save the image in registry and deploy it.
+steps:
+  # Docker Build
+  - id: Build-image   # customized name, will be used as prefix in the build log
+    name: 'gcr.io/cloud-builders/docker' # references a cloud-build image
+    entrypoint: 'bash'  # overwrites the standard entrypoint of the image. Here necessary to define env and secretEnv
+    args:
+      - '-c'
+      - 'docker build -t local_image -f deployment/Dockerfile . '
+    env:
+      - 'DEPLOY_ENVIRONMENT=${_DEPLOY_ENVIRONMENT}'
+
+  # Run tests inside a container using previously built image (TODO)
+  #  - id: Run-tests
+  #    name: 'gcr.io/cloud-builders/docker'
+  #    entrypoint: 'bash'
+  #    args:
+  #      - '-c'
+  #      - 'docker run local_image pytest'
+
+
+  # Tag the built and tested image with the path to the artifacts registry repo
+  - id: Retag-image-for-registry
+    name: 'gcr.io/cloud-builders/docker'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - 'docker tag local_image:latest ${_DEPLOY_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_IMAGE}:${TAG_NAME}'
+
+  #   Docker Push
+  - id: Push-image-to-registry
+    name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'push'
+      - '${_DEPLOY_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_IMAGE}:${TAG_NAME}'
+    env:
+      - 'DEPLOY_ENVIRONMENT=${_DEPLOY_ENVIRONMENT}'
+
+  # Entrypoint, timeout and environment variables (+ container settings as concurrency, timeout)
+  - id: Deploy-container
+    name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: 'gcloud'
+    timeout: 300s
+    args:
+      - 'run'
+      - 'deploy'
+      - '${_SERVICE_NAME}'
+      - '--region'
+      - '${_DEPLOY_REGION}'
+      - '--image'
+      - '${_DEPLOY_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_IMAGE}:${TAG_NAME}'
+      - '--platform'
+      - '${_PLATFORM}'
+      - '--allow-unauthenticated'
+      - '--min-instances=2'
+      - '--max-instances=100'
+      - '--timeout=300'
+      - '--concurrency=4'
+      - '--set-env-vars=DEPLOY_ENVIRONMENT=${_DEPLOY_ENVIRONMENT},DB_NAME=${_DB_NAME},DB_COLLECTION=${_DB_COLLECTION}'
+      - '--set-secrets=DB_HOST=${_DB_HOST}:latest,DB_PASSWORD=${_DB_PASSWORD}:latest,DB_USER=${_DB_USER}:latest'
+
+substitutions:
+  _PLATFORM: managed
+  _DEPLOY_REGION: europe-west1
+  _DEPLOY_ENVIRONMENT: DEV
+  _PROJECT_ID: expanded-dryad-242610
+  _GOOGLE_CLOUD_PROJECT: Annes Playground
+  _SERVICE_NAME: basic-project-dev
+  _DB_NAME: legal_translator_dev
+  _DB_COLLECTION: legal_translator_collection
+  _REPOSITORY: basic-project
+  _IMAGE: basic-project
+  _DB_HOST: MDB_CONN_STR_DEV
+  _DB_PASSWORD: MONGODB_DEV_PASSWORD
+  _DB_USER: MONGODB_DEV_USER

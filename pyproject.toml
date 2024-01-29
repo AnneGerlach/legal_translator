@@ -1,0 +1,25 @@
+[project]
+version = "0.0.11"
+name = "legal translator"
+description = "The legal translator Template"
+readme = "README.md"
+requires-python = ">=3.11"
+[[project.authors]]
+name = "Anne Gerlach"
+email = "annegerlach94@gmx.de"
+
+[project.urls]
+homepage = ""
+documentation = "swaggerurl/docs"
+repository = "githublink"
+
+[tool.ruff]
+extend-select = [ "B", "BLE", "C4", "ERA", "I", "ICN", "INP", "ISC", "N", "NPY", "PGH", "PIE", "Q", "RET", "RSE", "RUF", "S", "SIM", "T20", "TCH", "TID", "YTT",]
+ignore = [ "E402", "ERA001", "B905", "N818", "S101", "B008", "RUF012"]
+show-fixes = true
+target-version = "py310"
+line-length = 99
+
+[tool.pytest.ini_options]
+pythonpath = [ ".", "src"]
+asyncio_mode = "auto"
