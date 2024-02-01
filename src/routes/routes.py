@@ -21,7 +21,7 @@ templates = Jinja2Templates(directory=TEMPLATES_DIR)
 # USUAL ROUTES
 
 @myresource_router.post(
-    "/api/standard_route_post",
+    "/api/translate_text",
     description="change data",
     status_code=200,
     response_model=StandardResponseSchema,

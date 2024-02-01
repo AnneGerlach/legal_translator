@@ -864,3 +864,53 @@ To install, run: pip install email-validator
 10 Sep 23 14:31:13	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
 10 Sep 23 14:31:28	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
 10 Sep 23 14:31:28	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=13628 request_id=50a7cfbaada70c7a0a14815d8e61db34 response_code=200
+01 Feb 24 09:52:54	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 09:53:45	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 09:54:31	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 09:54:31	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 09:54:31	DEBUG	multipart.py	Calling on_field_data with data[5:39]
+01 Feb 24 09:54:31	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 09:54:31	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 09:54:31	DEBUG	multipart.py	Calling on_field_name with data[40:50]
+01 Feb 24 09:54:31	DEBUG	multipart.py	Calling on_field_data with data[51:61]
+01 Feb 24 09:54:31	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 09:54:31	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 09:54:31	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 09:54:31	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: das ist ein text. Schreibe ihn um."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 09:54:31	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 09:54:31	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 09:54:32	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 401 257
+01 Feb 24 09:54:32	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=None request_id=940e8ebb060641475f17c66b4996b68a response_code=401
+01 Feb 24 09:54:32	INFO	util.py	error_code=invalid_api_key error_message='Incorrect API key provided: testkey. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+01 Feb 24 09:56:56	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 09:57:20	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 09:57:20	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 09:57:20	DEBUG	multipart.py	Calling on_field_data with data[5:48]
+01 Feb 24 09:57:20	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 09:57:20	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 09:57:20	DEBUG	multipart.py	Calling on_field_name with data[49:59]
+01 Feb 24 09:57:20	DEBUG	multipart.py	Calling on_field_data with data[60:70]
+01 Feb 24 09:57:20	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 09:57:20	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 09:57:20	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 09:57:20	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Das ist ein Test text. Schreibe ihn mir um."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 09:57:20	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 09:57:20	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 09:57:22	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 09:57:22	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1409 request_id=154dbca5c9cbbf44075a8c909637b0bc response_code=200
+01 Feb 24 09:58:28	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 09:58:40	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 09:58:40	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 09:58:40	DEBUG	multipart.py	Calling on_field_data with data[5:45]
+01 Feb 24 09:58:40	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 09:58:40	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 09:58:40	DEBUG	multipart.py	Calling on_field_name with data[46:56]
+01 Feb 24 09:58:40	DEBUG	multipart.py	Calling on_field_data with data[57:67]
+01 Feb 24 09:58:40	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 09:58:40	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 09:58:40	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 09:58:40	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Das ist mein Test text. Schreibe ihn um."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 09:58:40	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 09:58:40	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 09:58:46	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 09:58:46	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=5510 request_id=263a27bb414e33d262b412df2c6df340 response_code=200

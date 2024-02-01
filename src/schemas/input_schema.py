@@ -1,11 +1,12 @@
-from pydantic import BaseModel, validator
+from pydantic import BaseModel, field_validator
 
 
 class StandardInputSchema(BaseModel):
     input: str = "test"
 
-    @validator("input")
-    def check_if_v_is_filled_string(cls, v):     # noqa: N805
+    @field_validator("input")
+    @classmethod
+    def check_if_v_is_filled_string(cls, v):
         if not v:
             raise ValueError(f"Value {v} must be filled and not only an empty string")
         return v

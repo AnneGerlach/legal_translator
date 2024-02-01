@@ -1,8 +1,7 @@
 # Web App
-fastapi >= 0.94.0
-pydantic>=1.4.0,<2
+fastapi
+pydantic
 uvicorn[standard]
-jinja2
 python-multipart
 certifi
 openai

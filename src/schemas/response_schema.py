@@ -5,7 +5,7 @@ class StandardResponseSchema(BaseModel):
     result: str = Field(
         ...,
         description="output text",
-        example="output_text"
+        examples=["output_text"]
     )
 
 

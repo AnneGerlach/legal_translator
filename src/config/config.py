@@ -7,7 +7,9 @@ from functools import lru_cache
 from pathlib import Path
 
 import toml
-from pydantic import BaseModel, BaseSettings, ValidationError, validator
+from pydantic import BaseModel, ValidationError, validator, model_validator
+
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 APP_NAME = "legal translator"
 DESCRIPTION = "legal translator!"
@@ -54,12 +56,9 @@ class Settings(BaseSettings):
     db_host: str = "localhost"
     db_port: int = 27017  # only relevant for local deployment
     db_name: str = ""
-    db_collection: str = ""
+    db_collection: str = "legal_translations"
     openai_api_key: str = ""
-
-
-    class Config:
-        env_file = os.path.join(DEPLOYMENT_DIR, ".env")
+    model_config = SettingsConfigDict(env_file=os.path.join(DEPLOYMENT_DIR, ".env"))
 
     def is_deployed_remotely(self):
         return self.deploy_environment in REMOTE_ENVIRONMENTS
@@ -67,15 +66,13 @@ class Settings(BaseSettings):
     def is_deployed_locally(self):
         return not self.is_deployed_remotely()
 
-
-    @validator("db_host",  always=True)
-    def check_not_localhost_for_remote_deployment(cls, v, values):  # noqa: N805
-        if values.get("deploy_environment") in REMOTE_ENVIRONMENTS \
-                and v == "localhost":
+    @model_validator(mode="after")
+    def check_not_localhost_for_remote_deployment(self):  # noqa: N805
+        if self.deploy_environment in REMOTE_ENVIRONMENTS \
+                and self.db_host == "localhost":
             raise ValidationError(f"This env variable must be changed when deploying remotely! "
-                                  f"(value: {v})")
-        return v
-
+                                  f"(value: {self.db_host})")
+        return self
 
     def mdb_connection_string(self):
         if self.is_deployed_locally():  # no auth for the local database

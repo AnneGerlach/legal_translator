@@ -1,21 +1,16 @@
-import uuid
+import datetime
 
-from pydantic import BaseModel, Field
+import pytz
+from pydantic import Field
 
-from src.utils.utils import ts_now
+from src.documents import Document
 
 
-class StandardModel(BaseModel):
-    id: uuid.UUID = Field(default_factory=uuid.uuid4)
-    schema_version: str = "0.0.0"
+class StandardModel(Document):
     user_id: str
     text: str
-    created_at: int | None = ts_now()
-    result: str = None
-    prompt: str = None
-
-
-    class Config:
-        json_encoders = {
-            uuid.UUID: str,
-        }
+    created_at: str = Field(
+        default_factory=lambda: datetime.datetime.now(tz=pytz.UTC).isoformat()
+    )
+    result: str | None = None
+    prompt: str | None = None
