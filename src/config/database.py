@@ -8,3 +8,5 @@ DB_CLIENT = MongoClient(env.mdb_connection_string(),
 db = DB_CLIENT[env.db_name]
 
 
+def get_db():
+    return db[get_settings().db_name]

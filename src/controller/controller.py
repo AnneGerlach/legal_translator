@@ -13,10 +13,14 @@ class StandardController(BaseModel):
         self.standard_model.prompt = [{"role": "assistant",
                                        "content": f"Let's work this out in a step by step way, "
                                                   f"to be sure we have the right answer. "
-                                                  f"Formuliere diesen Text in leichter Sprache und "
+                                                  f"Formuliere diesen Text in leichter"
+                                                  f" Sprache und "
                                                   f"fasse ihn in Stichpunkten zusammen: "
                                                   f"{self.standard_model.text}"}]
 
-        self.standard_model.result = request_chat_completion(self.standard_model.text, self.standard_model.prompt)
+        self.standard_model.result = request_chat_completion(
+            self.standard_model.text,
+            self.standard_model.prompt
+        )
 
         add_document_to_collection(self.standard_model)

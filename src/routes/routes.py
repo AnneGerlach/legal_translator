@@ -49,7 +49,7 @@ async def generate_standard_content(
 @myresource_router.get("/api/translate", response_class=HTMLResponse)
 async def get_standard_data(request: Request):
     return templates.TemplateResponse(
-        "lexilinker.html",
+        "legal_translator.html",
         context={"request": request, "result": ""}
     )
 
@@ -64,10 +64,6 @@ async def post_standard_data(request: Request, text: str = Form(...)):
 
         ))
     await controller_obj.initialize_standard_controller()
-
-    return templates.TemplateResponse(
-        "lexilinker.html",
-        context={"request": request, "result": controller_obj.standard_model.result}
-    )
+    return controller_obj.standard_model.result
 
 

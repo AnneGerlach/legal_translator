@@ -959,3 +959,614 @@ To install, run: pip install email-validator
 01 Feb 24 10:59:03	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
 01 Feb 24 10:59:06	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
 01 Feb 24 10:59:06	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2316 request_id=1e4d5eb5ee711a6a2f69985ea7252b06 response_code=200
+01 Feb 24 11:09:40	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:09:45	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+01 Feb 24 11:10:18	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:11:38	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:11:51	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:11:55	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+01 Feb 24 11:20:49	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:20:52	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+01 Feb 24 11:21:34	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:21:48	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 11:21:48	DEBUG	multipart.py	Calling on_field_name with data[0:8]
+01 Feb 24 11:21:48	DEBUG	multipart.py	Calling on_field_data with data[9:26]
+01 Feb 24 11:21:48	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 11:21:48	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 11:23:45	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:23:59	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 11:23:59	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 11:23:59	DEBUG	multipart.py	Calling on_field_data with data[5:23]
+01 Feb 24 11:23:59	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 11:23:59	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 11:23:59	DEBUG	multipart.py	Calling on_field_name with data[24:34]
+01 Feb 24 11:23:59	DEBUG	multipart.py	Calling on_field_data with data[35:45]
+01 Feb 24 11:23:59	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 11:23:59	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 11:23:59	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 11:23:59	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Das ist mein Text."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 11:23:59	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 11:23:59	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 11:24:01	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 11:24:01	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1306 request_id=cd9215af38f784a657958556bf2f3a00 response_code=200
+01 Feb 24 11:28:11	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:28:19	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+01 Feb 24 11:29:26	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:29:33	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 11:29:33	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 11:29:33	DEBUG	multipart.py	Calling on_header_value with data[63:89]
+01 Feb 24 11:29:33	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 11:29:33	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 11:29:33	DEBUG	multipart.py	Calling on_part_data with data[93:111]
+01 Feb 24 11:29:33	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 11:29:33	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 11:30:43	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:30:55	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 11:30:55	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 11:30:55	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 11:30:55	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 11:30:55	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 11:30:55	DEBUG	multipart.py	Calling on_part_data with data[89:107]
+01 Feb 24 11:30:55	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 11:30:55	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 11:30:55	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 11:30:55	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Das ist mein Text."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 11:30:55	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 11:30:55	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 11:30:57	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 11:30:57	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1303 request_id=64aa07b95e0195870f6df59c209f7eae response_code=200
+01 Feb 24 11:33:08	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:33:20	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 11:33:20	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 11:33:20	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 11:33:20	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 11:33:20	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 11:33:20	DEBUG	multipart.py	Calling on_part_data with data[89:104]
+01 Feb 24 11:33:20	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 11:33:20	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 11:33:20	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 11:33:20	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: DS IST MEI TEXT"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 11:33:20	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 11:33:20	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 11:33:22	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 11:33:22	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1319 request_id=6a8cd42f15a5a769518b2e25888ba563 response_code=200
+01 Feb 24 11:33:40	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:33:52	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:34:47	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:35:17	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:37:29	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:38:18	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:39:07	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:39:21	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 11:39:21	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 11:39:21	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 11:39:21	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 11:39:21	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 11:39:21	DEBUG	multipart.py	Calling on_part_data with data[89:105]
+01 Feb 24 11:39:21	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 11:39:21	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 11:39:21	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 11:39:21	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: j\\u00f6afhewoai\\u00f6gew"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 11:39:21	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 11:39:21	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 11:39:22	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 11:39:22	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1307 request_id=b840cac52e64e0c9f2ec8d4a6122c24c response_code=200
+01 Feb 24 11:39:35	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:39:47	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:40:31	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:41:13	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:51:42	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:52:35	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:53:15	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:54:20	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:54:42	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:55:33	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:57:09	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:58:44	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 11:58:51	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 11:58:51	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 11:58:51	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 11:58:51	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 11:58:51	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 11:58:51	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 11:58:51	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 11:58:58	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 11:58:58	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 11:58:58	DEBUG	multipart.py	Calling on_field_data with data[5:73]
+01 Feb 24 11:58:58	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 11:58:58	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 11:58:58	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 11:58:58	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: \\u00f6hnA\\u00d6CnaKLCnaqKFCLwq_NFCkql\\u00d6FCqwniofalnfnlkAcdOLADVyx"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 11:58:58	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 11:58:58	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 11:59:00	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 11:59:00	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1672 request_id=8a51ff51249387c45e9be6b1288deb46 response_code=200
+01 Feb 24 11:59:00	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 11:59:00	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 11:59:00	DEBUG	multipart.py	Calling on_field_data with data[5:73]
+01 Feb 24 11:59:00	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 11:59:00	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 11:59:00	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 11:59:00	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: \\u00f6hnA\\u00d6CnaKLCnaqKFCLwq_NFCkql\\u00d6FCqwniofalnfnlkAcdOLADVyx"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 11:59:05	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 11:59:05	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1900 request_id=aaacfdfa265fabb0c604b2742095d85b response_code=200
+01 Feb 24 11:59:05	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 11:59:05	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 11:59:05	DEBUG	multipart.py	Calling on_field_data with data[5:76]
+01 Feb 24 11:59:05	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 11:59:05	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 11:59:05	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 11:59:05	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: \\u00f6hnA\\u00d6CnaKLCnaqKFCLwq_NFCkql\\u00d6FCqwniofalnfnlkAcdOLADVyxfew"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 11:59:07	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 11:59:07	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=992 request_id=620d9471fd6712eca4e1ecc53cacb2cb response_code=200
+01 Feb 24 11:59:07	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 11:59:07	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 11:59:07	DEBUG	multipart.py	Calling on_field_data with data[5:106]
+01 Feb 24 11:59:07	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 11:59:07	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 11:59:07	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 11:59:07	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: \\u00f6hnA\\u00d6CnaKLCnaqKFCLwq_NFCkql\\u00d6FCqwniofalnfnlkAcdOLADVyxfewff . DJkl\\u00f6ajwela\\u00f6few"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 11:59:10	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 11:59:10	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2211 request_id=2dfbc295e2cc430748341bcfdcdd7957 response_code=200
+01 Feb 24 11:59:10	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 11:59:10	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 11:59:10	DEBUG	multipart.py	Calling on_field_data with data[5:106]
+01 Feb 24 11:59:10	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 11:59:10	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 11:59:10	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 11:59:10	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: \\u00f6hnA\\u00d6CnaKLCnaqKFCLwq_NFCkql\\u00d6FCqwniofalnfnlkAcdOLADVyxfewff . DJkl\\u00f6ajwela\\u00f6few"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 11:59:11	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 11:59:11	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1084 request_id=dd38c2422e4d3d023c26bcfa4779f5fb response_code=200
+01 Feb 24 12:01:32	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:01:40	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 12:01:40	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 12:01:40	DEBUG	multipart.py	Calling on_field_data with data[5:46]
+01 Feb 24 12:01:40	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 12:01:40	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:01:40	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:01:40	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: jkgwl\\u00f6g ewi\\u00f6odnw\\u00f6fdj\\u00f6"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:01:40	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 12:01:40	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 12:01:42	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:01:42	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=961 request_id=c9438db0e2208353a6422e2f98344af4 response_code=200
+01 Feb 24 12:01:42	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 12:01:42	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 12:01:42	DEBUG	multipart.py	Calling on_field_data with data[5:47]
+01 Feb 24 12:01:42	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 12:01:42	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:01:42	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:01:42	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: jkgwl\\u00f6g ewi\\u00f6odnw\\u00f6fdj\\u00f6d"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:01:43	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:01:43	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1106 request_id=c991e3b2df83d98e2b552ee20f81a58d response_code=200
+01 Feb 24 12:01:51	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:01:51	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:01:51	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:01:51	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:01:51	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:01:51	DEBUG	multipart.py	Calling on_part_data with data[89:101]
+01 Feb 24 12:01:51	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:01:51	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:01:51	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:01:51	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: fwewefewgwrg"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:01:53	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:01:53	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1200 request_id=83e448df711a9fd328782eea8d02e982 response_code=200
+01 Feb 24 12:02:08	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:02:13	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 12:02:13	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 12:02:13	DEBUG	multipart.py	Calling on_field_data with data[5:22]
+01 Feb 24 12:02:13	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 12:02:13	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:02:13	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:02:13	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: jwr\\u00f6ae Gwjia"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:02:13	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 12:02:13	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 12:02:14	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:02:14	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1200 request_id=a07ffd0709444b6e3b3665f3003b7992 response_code=200
+01 Feb 24 12:02:33	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 12:02:33	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 12:02:33	DEBUG	multipart.py	Calling on_field_data with data[5:14]
+01 Feb 24 12:02:33	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 12:02:33	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:02:33	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:02:33	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: fwagewgee"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:02:35	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:02:35	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1160 request_id=860a7e379611517821cef273433cd89d response_code=200
+01 Feb 24 12:02:39	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:02:39	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:02:39	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:02:39	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:02:39	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:02:39	DEBUG	multipart.py	Calling on_part_data with data[89:98]
+01 Feb 24 12:02:39	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:02:39	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:02:39	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:02:39	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: fwagewgee"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:02:41	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:02:41	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1375 request_id=90d84c03e9863ca4ef59eb9add050130 response_code=200
+01 Feb 24 12:06:22	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:06:22	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:06:22	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:06:22	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:06:22	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:06:22	DEBUG	multipart.py	Calling on_part_data with data[89:2625]
+01 Feb 24 12:06:22	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:06:22	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:06:22	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:06:22	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Das bedeutet Werbung und Tracking: Wir und diese Drittanbieter verarbeiten Ihre personenbezogenen Daten und speichern Informationen auf Ihrem Endger\\u00e4t bzw. greifen auf diese zu (z.B. Cookies, pers\\u00f6nliche Identifikatoren oder IP-Adressen) gem. unten verlinkter Datenschutzerkl\\u00e4rung. Dies dient der Einbindung von Inhalten, externen Diensten und Elementen Dritter, der statistischen Analyse/Messung, personalisierten und interessengerechten Werbung sowie der Einbindung sozialer Medien. Je nach Funktion werden dabei Nutzungs- und Verhaltensdaten zur Erstellung personenbezogener Werbeprofile an Dritte, auch in den USA, mit dem Risiko eines geheimen Zugriffs durch US-Beh\\u00f6rden und der Nutzung zu \\u00dcberwachungszwecken, m\\u00f6glicherweise auch ohne Rechtsbehelfsm\\u00f6glichkeiten, weitergegeben und von diesen verarbeitet. Durch Bet\\u00e4tigen des Buttons \\"Alles akzeptieren\\" stimmen Sie der obigen Verarbeitung zu. Diese Einwilligung ist freiwillig und kann jederzeit \\u00fcber den Link \\"Cookie-Einstellungen\\" ganz unten im Fu\\u00dfbereich der Website widerrufen werden.  Bei Bet\\u00e4tigung des Buttons \\"Werbefrei f\\u00fcr 2,99 Euro inkl. USt. /Monat\\" werden nur essentielle Cookies gesetzt, die f\\u00fcr den Betrieb der Website notwendig sind. Werbebanner und Tracking sind dann deaktiviert.   Das ist contentpass: Auf unserer Website bieten wir Ihnen einen werbe- und trackingfreien Service an. Dieser Service nennt sich contentpass und ist ein Angebot der Content Pass GmbH, Wolfswerder 58, 14532 Kleinmachnow, Deutschland. Weitere Informationen zu dem Service finden Sie in den Allgemeinen Gesch\\u00e4ftsbedingungen und der Datenschutzerkl\\u00e4rung von contentpass. Um Ihnen diesen Service auf unserer Website anbieten zu k\\u00f6nnen, \\u00fcbermitteln wir zu Beginn Ihrer Registrierung Ihre IP-Adresse an contentpass. F\\u00fcr die Registrierung und die damit einhergehende Datenverarbeitung ist contentpass Verantwortlicher im Sinne der DSGVO. Wir sind ausschlie\\u00dflich Verantwortlicher f\\u00fcr die \\u00dcbermittlung Ihrer IP-Adresse an contentpass. Die \\u00dcbermittlung ist aus technischen Gr\\u00fcnden erforderlich, um Sie auf die von contentpass betriebene Registrierungsseite zu leiten. F\\u00fcr weitere Informationen bez\\u00fcglich der Datenverarbeitung bei contentpass, lesen Sie bitte dortige Datenschutzerkl\\u00e4rung. Grundlage f\\u00fcr die Daten\\u00fcbermittlung ist unser berechtigtes Interesse an der werbe- und trackingfreien zur Verf\\u00fcgungstellung unserer Website und Ihr berechtigtes Interesse an der Nutzung unserer Website praktisch ohne Werbung und Tracking, Art. 6 Abs. 1 S. 1 Buchst. f) DSGVO."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:06:22	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 12:06:22	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 12:06:36	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:06:36	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=13442 request_id=dcaecffb75b544f7f372fa0279a7307a response_code=200
+01 Feb 24 12:06:36	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 12:06:36	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 12:06:36	DEBUG	multipart.py	Calling on_field_data with data[5:2717]
+01 Feb 24 12:06:36	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 12:06:36	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:06:36	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:06:36	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Das bedeutet Werbung und Tracking: Wir und diese Drittanbieter verarbeiten Ihre personenbezogenen Daten und speichern Informationen auf Ihrem Endger\\u00e4t bzw. greifen auf diese zu (z.B. Cookies, pers\\u00f6nliche Identifikatoren oder IP-Adressen) gem. unten verlinkter Datenschutzerkl\\u00e4rung. Dies dient der Einbindung von Inhalten, externen Diensten und Elementen Dritter, der statistischen Analyse/Messung, personalisierten und interessengerechten Werbung sowie der Einbindung sozialer Medien. Je nach Funktion werden dabei Nutzungs- und Verhaltensdaten zur Erstellung personenbezogener Werbeprofile an Dritte, auch in den USA, mit dem Risiko eines geheimen Zugriffs durch US-Beh\\u00f6rden und der Nutzung zu \\u00dcberwachungszwecken, m\\u00f6glicherweise auch ohne Rechtsbehelfsm\\u00f6glichkeiten, weitergegeben und von diesen verarbeitet. Durch Bet\\u00e4tigen des Buttons \\"Alles akzeptieren\\" stimmen Sie der obigen Verarbeitung zu. Diese Einwilligung ist freiwillig und kann jederzeit \\u00fcber den Link \\"Cookie-Einstellungen\\" ganz unten im Fu\\u00dfbereich der Website widerrufen werden.  Bei Bet\\u00e4tigung des Buttons \\"Werbefrei f\\u00fcr 2,99 Euro inkl. USt. /Monat\\" werden nur essentielle Cookies gesetzt, die f\\u00fcr den Betrieb der Website notwendig sind. Werbebanner und Tracking sind dann deaktiviert.   Das ist contentpass: Auf unserer Website bieten wir Ihnen einen werbe- und trackingfreien Service an. Dieser Service nennt sich contentpass und ist ein Angebot der Content Pass GmbH, Wolfswerder 58, 14532 Kleinmachnow, Deutschland. Weitere Informationen zu dem Service finden Sie in den Allgemeinen Gesch\\u00e4ftsbedingungen und der Datenschutzerkl\\u00e4rung von contentpass. Um Ihnen diesen Service auf unserer Website anbieten zu k\\u00f6nnen, \\u00fcbermitteln wir zu Beginn Ihrer Registrierung Ihre IP-Adresse an contentpass. F\\u00fcr die Registrierung und die damit einhergehende Datenverarbeitung ist contentpass Verantwortlicher im Sinne der DSGVO. Wir sind ausschlie\\u00dflich Verantwortlicher f\\u00fcr die \\u00dcbermittlung Ihrer IP-Adresse an contentpass. Die \\u00dcbermittlung ist aus technischen Gr\\u00fcnden erforderlich, um Sie auf die von contentpass betriebene Registrierungsseite zu leiten. F\\u00fcr weitere Informationen bez\\u00fcglich der Datenverarbeitung bei contentpass, lesen Sie bitte dortige Datenschutzerkl\\u00e4rung. Grundlage f\\u00fcr die Daten\\u00fcbermittlung ist unser berechtigtes Interesse an der werbe- und trackingfreien zur Verf\\u00fcgungstellung unserer Website und Ihr berechtigtes Interesse an der Nutzung unserer Website praktisch ohne Werbung und Tracking, Art. 6 Abs. 1 S. 1 Buchst. f) DSGVO."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:06:50	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:06:50	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=12900 request_id=585eec409e5ee27f3a2bf2329d2f48b2 response_code=200
+01 Feb 24 12:06:55	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:09:54	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:10:13	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:10:20	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:10:20	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:10:20	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:10:20	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:10:20	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:10:20	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:10:20	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:12:16	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:12:40	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:12:40	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:12:40	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:12:40	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:12:40	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:12:40	DEBUG	multipart.py	Calling on_part_data with data[89:1279]
+01 Feb 24 12:12:40	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:12:40	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:12:40	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:12:40	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Wir setzen auf unserer Website Cookies ein. Einige von ihnen sind notwendig (z. B. f\\u00fcr die Speicherung der dieser Einwilligung), w\\u00e4hrend andere nicht notwendig sind, uns jedoch helfen unser Onlineangebot zu verbessern und wirtschaftlich zu betreiben. Die Einwilligung umfasst alle vorausgew\\u00e4hlten, bzw. von dir ausgew\\u00e4hlten Cookies und die mit ihnen verbundene Speicherung von Informationen auf deinem Endger\\u00e4t sowie deren anschlie\\u00dfendes Auslesen und die folgende Verarbeitung personenbezogener Daten. Die Rechtsgrundlage f\\u00fcr die Einwilligung im Hinblick auf die Speicherung und das Auslesen von Informationen ist \\u00a7 25 Abs. 1 TTDSG sowie im Hinblick auf die Verarbeitung personenbezogener Daten Art. 6 Abs. 1 lit. a DSGVO. Du kannst in den Einsatz der nicht notwendigen Cookies mit dem Klick auf die Schaltfl\\u00e4che \\u201cAkzeptieren\\u201d einwilligen oder per Klick auf \\u201cAblehnen\\u201d dich anders entscheiden. Du kannst diese Einstellungen jederzeit aufrufen und Cookies auch nachtr\\u00e4glich jederzeit abw\\u00e4hlen (in der Datenschutzerkl\\u00e4rung und im Fu\\u00dfbereich unserer Website). Weitere Hinweise zu den verwendeten Verfahren und deinen Rechten, erh\\u00e4ltst du in unserer Datenschutzerkl\\u00e4rung."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:12:40	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 12:12:40	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 12:12:49	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:12:49	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=8568 request_id=170b1fab44c65b59cb991ca3d305c3ef response_code=200
+01 Feb 24 12:13:14	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:13:21	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:13:21	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:13:21	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:13:21	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:13:21	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:13:21	DEBUG	multipart.py	Calling on_part_data with data[89:106]
+01 Feb 24 12:13:21	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:13:21	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:13:21	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:13:21	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Das ist ein TEst."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:13:21	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 12:13:21	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 12:13:22	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:13:22	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1068 request_id=a5c4c3d5d3c1634016b210cd0f64bda8 response_code=200
+01 Feb 24 12:13:46	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:13:52	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:13:52	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:13:52	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:13:52	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:13:52	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:13:52	DEBUG	multipart.py	Calling on_part_data with data[89:93]
+01 Feb 24 12:13:52	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:13:52	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:13:52	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:13:52	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Test"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:13:52	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 12:13:52	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 12:13:54	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:13:54	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1159 request_id=73bee319657a570582aa676f07fc1b65 response_code=200
+01 Feb 24 12:16:51	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:18:19	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:18:19	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:18:19	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:18:19	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:18:19	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:18:19	DEBUG	multipart.py	Calling on_part_data with data[89:97]
+01 Feb 24 12:18:19	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:18:19	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:18:19	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:18:19	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: dfawfewa"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:18:19	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 12:18:19	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 12:18:21	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:18:21	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1252 request_id=86b4d263b17451b5b11e77635ed8eb1c response_code=200
+01 Feb 24 12:18:49	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:18:49	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:18:49	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:18:49	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:18:49	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:18:49	DEBUG	multipart.py	Calling on_part_data with data[89:104]
+01 Feb 24 12:18:49	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:18:49	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:18:49	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:18:49	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Ds ist ein Test"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:18:51	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:18:51	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1342 request_id=99a8cc18f45d53002a0758ff6a1deca7 response_code=200
+01 Feb 24 12:20:35	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:20:44	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:20:44	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:20:44	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:20:44	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:20:44	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:20:44	DEBUG	multipart.py	Calling on_part_data with data[89:107]
+01 Feb 24 12:20:44	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:20:44	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:20:44	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:20:44	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Das ist mein Text."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:20:44	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 12:20:45	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 12:20:46	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:20:46	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1002 request_id=0124ac01000a9e74ba717d255995dc23 response_code=200
+01 Feb 24 12:21:17	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:21:26	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:21:26	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:21:26	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:21:26	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:21:26	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:21:26	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:21:26	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:21:36	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:22:23	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:29:34	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:30:11	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:34:30	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:34:45	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:34:45	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:34:45	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:34:45	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:34:45	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:34:45	DEBUG	multipart.py	Calling on_part_data with data[89:98]
+01 Feb 24 12:34:45	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:34:45	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:34:45	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:34:45	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Der TEst."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:34:45	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 12:34:45	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 12:34:47	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:34:47	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1929 request_id=3c954da4639ab8dc4ba07a0bf4d68927 response_code=200
+01 Feb 24 12:36:12	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:36:34	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:37:03	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:38:16	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:39:07	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:39:24	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:39:49	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:41:22	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:41:47	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:41:47	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:41:47	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:41:47	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:41:47	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:41:47	DEBUG	multipart.py	Calling on_part_data with data[89:289]
+01 Feb 24 12:41:47	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:41:47	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:41:47	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:41:47	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: WGSddddddddddddddddddddddddddddddddddddddWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:41:47	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 12:41:47	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 12:41:54	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:41:54	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1245 request_id=053abfc691833abdb68016e303d5ba74 response_code=200
+01 Feb 24 12:43:15	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:44:59	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:45:15	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:45:50	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:46:25	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:49:38	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:50:23	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:50:51	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:51:58	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:51:58	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:51:58	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:51:58	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:51:58	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:51:58	DEBUG	multipart.py	Calling on_part_data with data[89:789]
+01 Feb 24 12:51:58	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:51:58	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:51:58	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:51:58	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Die Anrufung des Familiengerichts durch das Jugendamt ist erfor-derlich, wenn eine Kindeswohlgef\\u00e4hrdung nicht auf andere Weise abgewendet werden kann. Es ist Aufgabe des Familiengerichts, zu entscheiden, ob zum Schutz des Kindes oder Jugendlichen ein Eingriff in das elterliche Sorgerecht erforderlich ist. Das hei\\u00dft im Einzelnen eine zeitnahe Er\\u00f6rterung der Kindeswohlgef\\u00e4hrdung durchzuf\\u00fchren, Weisungen, Gebote und Verbote oder Auflagen zur Wahrnehmung der elterlichen Sorge zu verf\\u00fcgen oder das Sorgerecht ganz oder teilweise zu entziehen und auf einen Vormund oder Pfleger zu \\u00fcbertragen. Eingriffe in das elterliche Sorgerecht sind in den \\u00a7\\u00a7 1666 und 1666a BGB geregelt und nur m\\u00f6glich,"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:51:58	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 12:51:58	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 12:52:08	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:52:08	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7775 request_id=12067aa63494492eff61871a8a8f87a2 response_code=200
+01 Feb 24 12:52:24	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 12:52:24	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 12:52:24	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 12:52:24	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 12:52:24	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 12:52:24	DEBUG	multipart.py	Calling on_part_data with data[89:789]
+01 Feb 24 12:52:24	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 12:52:24	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 12:52:24	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 12:52:24	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Die Anrufung des Familiengerichts durch das Jugendamt ist erfor-derlich, wenn eine Kindeswohlgef\\u00e4hrdung nicht auf andere Weise abgewendet werden kann. Es ist Aufgabe des Familiengerichts, zu entscheiden, ob zum Schutz des Kindes oder Jugendlichen ein Eingriff in das elterliche Sorgerecht erforderlich ist. Das hei\\u00dft im Einzelnen eine zeitnahe Er\\u00f6rterung der Kindeswohlgef\\u00e4hrdung durchzuf\\u00fchren, Weisungen, Gebote und Verbote oder Auflagen zur Wahrnehmung der elterlichen Sorge zu verf\\u00fcgen oder das Sorgerecht ganz oder teilweise zu entziehen und auf einen Vormund oder Pfleger zu \\u00fcbertragen. Eingriffe in das elterliche Sorgerecht sind in den \\u00a7\\u00a7 1666 und 1666a BGB geregelt und nur m\\u00f6glich,"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 12:52:31	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 12:52:31	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6978 request_id=94681867912872aeae03ca87ca4b2ae8 response_code=200
+01 Feb 24 12:53:42	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:54:11	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:55:30	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:55:49	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:56:10	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:56:18	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 12:58:15	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:00:10	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:01:10	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:01:42	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:02:05	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:02:59	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:04:16	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:05:14	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:05:51	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:06:15	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:07:10	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:07:41	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:07:55	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:08:13	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:11:16	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:12:19	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:13:24	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:13:36	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:14:39	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:15:32	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:15:56	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:17:07	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:17:56	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:18:24	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:18:53	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:19:15	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:19:44	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:19:57	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:20:11	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:20:28	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:20:39	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:21:21	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:21:37	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:22:44	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:23:06	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:24:10	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:24:40	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:25:37	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:27:07	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:27:48	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:28:40	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:29:16	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:29:47	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:30:04	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:30:14	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:30:43	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:31:03	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:31:38	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 13:31:38	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 13:31:38	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 13:31:38	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 13:31:38	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 13:31:38	DEBUG	multipart.py	Calling on_part_data with data[89:1279]
+01 Feb 24 13:31:38	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 13:31:38	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 13:31:38	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 13:31:38	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Wir setzen auf unserer Website Cookies ein. Einige von ihnen sind notwendig (z. B. f\\u00fcr die Speicherung der dieser Einwilligung), w\\u00e4hrend andere nicht notwendig sind, uns jedoch helfen unser Onlineangebot zu verbessern und wirtschaftlich zu betreiben. Die Einwilligung umfasst alle vorausgew\\u00e4hlten, bzw. von dir ausgew\\u00e4hlten Cookies und die mit ihnen verbundene Speicherung von Informationen auf deinem Endger\\u00e4t sowie deren anschlie\\u00dfendes Auslesen und die folgende Verarbeitung personenbezogener Daten. Die Rechtsgrundlage f\\u00fcr die Einwilligung im Hinblick auf die Speicherung und das Auslesen von Informationen ist \\u00a7 25 Abs. 1 TTDSG sowie im Hinblick auf die Verarbeitung personenbezogener Daten Art. 6 Abs. 1 lit. a DSGVO. Du kannst in den Einsatz der nicht notwendigen Cookies mit dem Klick auf die Schaltfl\\u00e4che \\u201cAkzeptieren\\u201d einwilligen oder per Klick auf \\u201cAblehnen\\u201d dich anders entscheiden. Du kannst diese Einstellungen jederzeit aufrufen und Cookies auch nachtr\\u00e4glich jederzeit abw\\u00e4hlen (in der Datenschutzerkl\\u00e4rung und im Fu\\u00dfbereich unserer Website). Weitere Hinweise zu den verwendeten Verfahren und deinen Rechten, erh\\u00e4ltst du in unserer Datenschutzerkl\\u00e4rung."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 13:31:38	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 13:31:38	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 13:31:45	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 13:31:45	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6670 request_id=8364e38a89cc896ae932884576617017 response_code=200
+01 Feb 24 13:32:07	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:32:14	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 13:32:14	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 13:32:14	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 13:32:14	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 13:32:14	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 13:32:14	DEBUG	multipart.py	Calling on_part_data with data[89:1279]
+01 Feb 24 13:32:14	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 13:32:14	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 13:32:14	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 13:32:14	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Wir setzen auf unserer Website Cookies ein. Einige von ihnen sind notwendig (z. B. f\\u00fcr die Speicherung der dieser Einwilligung), w\\u00e4hrend andere nicht notwendig sind, uns jedoch helfen unser Onlineangebot zu verbessern und wirtschaftlich zu betreiben. Die Einwilligung umfasst alle vorausgew\\u00e4hlten, bzw. von dir ausgew\\u00e4hlten Cookies und die mit ihnen verbundene Speicherung von Informationen auf deinem Endger\\u00e4t sowie deren anschlie\\u00dfendes Auslesen und die folgende Verarbeitung personenbezogener Daten. Die Rechtsgrundlage f\\u00fcr die Einwilligung im Hinblick auf die Speicherung und das Auslesen von Informationen ist \\u00a7 25 Abs. 1 TTDSG sowie im Hinblick auf die Verarbeitung personenbezogener Daten Art. 6 Abs. 1 lit. a DSGVO. Du kannst in den Einsatz der nicht notwendigen Cookies mit dem Klick auf die Schaltfl\\u00e4che \\u201cAkzeptieren\\u201d einwilligen oder per Klick auf \\u201cAblehnen\\u201d dich anders entscheiden. Du kannst diese Einstellungen jederzeit aufrufen und Cookies auch nachtr\\u00e4glich jederzeit abw\\u00e4hlen (in der Datenschutzerkl\\u00e4rung und im Fu\\u00dfbereich unserer Website). Weitere Hinweise zu den verwendeten Verfahren und deinen Rechten, erh\\u00e4ltst du in unserer Datenschutzerkl\\u00e4rung."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 13:32:14	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 13:32:14	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 13:32:22	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 13:32:22	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=6661 request_id=e5bfa9fc1366264786966841f1e70569 response_code=200
+01 Feb 24 13:32:31	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:32:41	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 13:32:41	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 13:32:41	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 13:32:41	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 13:32:41	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 13:32:41	DEBUG	multipart.py	Calling on_part_data with data[89:1279]
+01 Feb 24 13:32:41	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 13:32:41	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 13:32:41	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 13:32:41	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Wir setzen auf unserer Website Cookies ein. Einige von ihnen sind notwendig (z. B. f\\u00fcr die Speicherung der dieser Einwilligung), w\\u00e4hrend andere nicht notwendig sind, uns jedoch helfen unser Onlineangebot zu verbessern und wirtschaftlich zu betreiben. Die Einwilligung umfasst alle vorausgew\\u00e4hlten, bzw. von dir ausgew\\u00e4hlten Cookies und die mit ihnen verbundene Speicherung von Informationen auf deinem Endger\\u00e4t sowie deren anschlie\\u00dfendes Auslesen und die folgende Verarbeitung personenbezogener Daten. Die Rechtsgrundlage f\\u00fcr die Einwilligung im Hinblick auf die Speicherung und das Auslesen von Informationen ist \\u00a7 25 Abs. 1 TTDSG sowie im Hinblick auf die Verarbeitung personenbezogener Daten Art. 6 Abs. 1 lit. a DSGVO. Du kannst in den Einsatz der nicht notwendigen Cookies mit dem Klick auf die Schaltfl\\u00e4che \\u201cAkzeptieren\\u201d einwilligen oder per Klick auf \\u201cAblehnen\\u201d dich anders entscheiden. Du kannst diese Einstellungen jederzeit aufrufen und Cookies auch nachtr\\u00e4glich jederzeit abw\\u00e4hlen (in der Datenschutzerkl\\u00e4rung und im Fu\\u00dfbereich unserer Website). Weitere Hinweise zu den verwendeten Verfahren und deinen Rechten, erh\\u00e4ltst du in unserer Datenschutzerkl\\u00e4rung."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 13:32:41	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 13:32:41	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 13:32:51	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 13:32:51	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=7444 request_id=b79c8e93f8dd9e1c803b522eedd91fa0 response_code=200
+01 Feb 24 13:35:08	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:35:29	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:36:42	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:37:41	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:38:59	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:39:59	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:40:53	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:41:35	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:41:53	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:42:33	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:42:54	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:43:13	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:43:44	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:44:03	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:45:00	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:45:25	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:45:42	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:46:12	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:46:48	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:47:17	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:48:51	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:49:01	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:49:15	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:49:28	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:50:03	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:50:24	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:51:04	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:51:35	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 13:51:35	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 13:51:35	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 13:51:35	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 13:51:35	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 13:51:35	DEBUG	multipart.py	Calling on_part_data with data[89:106]
+01 Feb 24 13:51:35	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 13:51:35	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 13:51:35	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 13:51:35	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Das ist ein Test."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 13:51:35	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 13:51:35	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 13:51:37	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 13:51:37	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=927 request_id=1c00df3bfb2daa520d23bc611686e3df response_code=200
+01 Feb 24 13:52:38	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:52:52	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:53:32	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:53:57	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 13:55:59	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 14:02:48	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 14:02:54	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+01 Feb 24 14:03:22	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 14:03:31	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 14:03:31	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 14:03:31	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 14:03:31	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 14:03:31	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 14:03:31	DEBUG	multipart.py	Calling on_part_data with data[89:99]
+01 Feb 24 14:03:31	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 14:03:31	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 14:03:31	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 14:03:31	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Test text."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 14:03:31	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 14:03:31	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 14:03:32	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 14:03:32	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1201 request_id=2f4c4bb57192bd780c67a2e32b536bf8 response_code=200
+01 Feb 24 14:08:14	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 14:08:22	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+01 Feb 24 14:08:37	DEBUG	multipart.py	Calling on_part_begin with no data
+01 Feb 24 14:08:37	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+01 Feb 24 14:08:37	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+01 Feb 24 14:08:37	DEBUG	multipart.py	Calling on_header_end with no data
+01 Feb 24 14:08:37	DEBUG	multipart.py	Calling on_headers_finished with no data
+01 Feb 24 14:08:37	DEBUG	multipart.py	Calling on_part_data with data[89:111]
+01 Feb 24 14:08:37	DEBUG	multipart.py	Calling on_part_end with no data
+01 Feb 24 14:08:37	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 14:08:37	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 14:08:37	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Test TExt. Der Letzte."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 14:08:37	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 14:08:37	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 14:08:39	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 14:08:39	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1543 request_id=504e59e7f2f2f648e0304f78e555a74d response_code=200
+01 Feb 24 14:10:32	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 14:12:15	INFO	main.py	legal translator: Finished initializing

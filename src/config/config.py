@@ -7,8 +7,7 @@ from functools import lru_cache
 from pathlib import Path
 
 import toml
-from pydantic import BaseModel, ValidationError, validator, model_validator
-
+from pydantic import BaseModel, ValidationError, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 APP_NAME = "legal translator"
@@ -66,8 +65,13 @@ class Settings(BaseSettings):
     def is_deployed_locally(self):
         return not self.is_deployed_remotely()
 
+    @property
+    def debug(self) -> bool:
+        return (self.deploy_environment not in
+                [DeployEnvironments.PRODUCTION, DeployEnvironments.STAGE])
+
     @model_validator(mode="after")
-    def check_not_localhost_for_remote_deployment(self):  # noqa: N805
+    def check_not_localhost_for_remote_deployment(self):
         if self.deploy_environment in REMOTE_ENVIRONMENTS \
                 and self.db_host == "localhost":
             raise ValidationError(f"This env variable must be changed when deploying remotely! "

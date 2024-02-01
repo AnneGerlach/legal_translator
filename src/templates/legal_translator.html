@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+   <style>
+      html {background-color: #393e46}
+      textarea {
+      width: 100%;
+      height: 150px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      border-gray-200;
+      font-size: 10px;
+      resize: none;
+      background-color: #eeeeee;
+      }
+      h1 {
+      color: #e88b58;
+      text-shadow: 1px 1px #e06a43;
+      }
+      h1, h3{
+      font-family: monospace;
+      }
+      h3 {
+      color: #f29d6f;
+      }
+      .styled {
+      border: 0;
+      float: right;
+      line-height: 2.5;
+      padding: 0 20px;
+      font-size: 12px;
+      font-family: monospace;
+      font-weight: bold;
+      color: #f2bb9d;
+      text-align: center;
+      border-radius: 10px;
+      background-color: #db6139;
+      background-image: linear-gradient(
+      to top left,
+      rgb(0 0 0 / 20%),
+      rgb(0 0 0 / 20%) 30%,
+      rgb(0 0 0 / 0%)
+      );
+      box-shadow:
+      inset 2px 2px 3px rgb(255 255 255 / 60%),
+      inset -2px -2px 3px rgb(0 0 0 / 60%);
+      }
+      .styled:hover {
+      background-color: #db5c18;
+      }
+      .styled:active {
+      box-shadow:
+      inset -2px -2px 3px rgb(255 255 255 / 60%),
+      inset 2px 2px 3px rgb(0 0 0 / 60%);
+      }
+      .content {
+      max-width: 500px;
+      margin: auto;
+      }
+      .attr-marker:not(:empty) {
+      font-family: monospace;
+      color: #f29d6f;
+      font-size: 8px}
+   </style>
+   <body>
+      <div class="content">
+         <h1>Legal Translator</h1>
+         <h3>Dein juristischer Text in verständlicher Sprache</h3>
+         <form method="post" id="myForm">
+            <textarea type="text" name="text" class="form-control" id="input" placeholder="Juristischer Text..." rows="8"></textarea>
+            <input id="button" type="button" value="Start" class="styled" onclick="submitForm()">
+         </form>
+         <input id="cb" type="checkbox" style="float: left; margin-top: 5px;">
+         <div style="margin-left: 25px;margin-top: 8px;" class="attr-marker">Ich bestätige, dass Legal Translator keinerlei Gewähr für die generierten Texte übernimmt.</div>
+         <br>
+         <div class="form-outline">
+            <textarea class="form-control" id="responseArea" rows="10" placeholder="Verständlicher Text..."></textarea>
+            <label class="form-label" for="responseArea"></label>
+         </div>
+      </div>
+      <script>
+         function submitForm() {
+             var formElement = document.getElementById('myForm');
+             var data = new FormData(formElement);
+             fetch('/api/translate', {
+                   method: 'POST',
+                   body: data,
+                 })
+                 .then(resp => resp.text())  // or, resp.json(), etc.
+                 .then(data => {
+                   document.getElementById("responseArea").innerHTML = data;
+                 })
+                 .catch(error => {
+                   console.error(error);
+                 });
+         }
+      </script>
+   </body>
+</html>
