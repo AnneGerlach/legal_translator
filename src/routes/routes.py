@@ -1,11 +1,11 @@
 from pathlib import Path
 
 from fastapi import APIRouter, Form, Request
-from starlette.responses import HTMLResponse
+from starlette.responses import HTMLResponse, RedirectResponse
 from starlette.templating import Jinja2Templates
 
 from src.controller.controller import StandardController
-from src.models.models import StandardModel
+from src.models.models import LegalTranslation
 from src.schemas.input_schema import StandardInputSchema
 from src.schemas.response_schema import StandardResponseSchema, standard_response_examples
 
@@ -19,6 +19,9 @@ templates = Jinja2Templates(directory=TEMPLATES_DIR)
 
 
 # USUAL ROUTES
+@myresource_router.get("/")
+async def home_page():
+    return RedirectResponse("/docs")
 
 @myresource_router.post(
     "/api/translate_text",
@@ -31,7 +34,7 @@ async def generate_standard_content(
         request_data: StandardInputSchema
 ):
     controller_obj = StandardController(
-        standard_model=StandardModel(
+        standard_model=LegalTranslation(
             user_id="Anne",
             text=request_data.input
 
@@ -55,7 +58,7 @@ async def get_standard_data(request: Request):
 @myresource_router.post("/api/translate", response_class=HTMLResponse)
 async def post_standard_data(request: Request, text: str = Form(...)):
     controller_obj = StandardController(
-        standard_model=StandardModel(
+        standard_model=LegalTranslation(
             user_id="Anne",
             text=text
 

@@ -10,7 +10,7 @@ from src import main
 from src.config import config
 from src.config.config import Settings
 from src.main import fastapi_app
-from src.models.models import StandardModel
+from src.models.models import LegalTranslation
 
 test_logs_file = "tests.log"
 
@@ -46,10 +46,10 @@ def app() -> FastAPI:
 
 
 @pytest.fixture()
-def standard_model_factory() -> Callable[..., StandardModel]:
+def standard_model_factory() -> Callable[..., LegalTranslation]:
     def _construct_example_model(
     ):
-        return StandardModel(
+        return LegalTranslation(
             user_id="Anne",
             text="Test Text."
         )

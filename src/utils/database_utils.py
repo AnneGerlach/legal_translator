@@ -1,9 +1,9 @@
 
 from src.config.database import db, env
-from src.models.models import StandardModel
+from src.models.models import LegalTranslation
 
 
-def add_document_to_collection(document: StandardModel):
+def add_document_to_collection(document: LegalTranslation):
     # insert_obj
     db.get_collection(env.db_collection).insert_one(
         document.dict()

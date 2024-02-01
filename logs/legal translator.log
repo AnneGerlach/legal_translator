@@ -930,3 +930,32 @@ To install, run: pip install email-validator
 01 Feb 24 10:44:06	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
 01 Feb 24 10:44:08	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
 01 Feb 24 10:44:08	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1848 request_id=b889c37fb45db79ba425c1d8f43d47c5 response_code=200
+01 Feb 24 10:51:34	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 10:51:55	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+01 Feb 24 10:57:30	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 10:57:37	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+01 Feb 24 10:57:51	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 10:57:51	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 10:57:51	DEBUG	multipart.py	Calling on_field_data with data[5:88]
+01 Feb 24 10:57:51	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 10:57:51	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 10:57:51	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 10:57:51	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Dir f\\u00e4llt es schwer, juristische Texte zu verstehen?\\r\\nIch helfe dir!"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 10:57:51	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 10:57:51	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 10:57:53	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 10:57:53	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1530 request_id=2c5620d454d17159c7d058958ef310ce response_code=200
+01 Feb 24 10:58:48	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 10:59:03	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 10:59:03	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 10:59:03	DEBUG	multipart.py	Calling on_field_data with data[5:88]
+01 Feb 24 10:59:03	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 10:59:03	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 10:59:03	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 10:59:03	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Dir f\\u00e4llt es schwer, juristische Texte zu verstehen?\\r\\nIch helfe dir!"}], "temperature": 0.2}' message='Post details'
+01 Feb 24 10:59:03	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 10:59:03	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 10:59:06	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 10:59:06	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=2316 request_id=1e4d5eb5ee711a6a2f69985ea7252b06 response_code=200

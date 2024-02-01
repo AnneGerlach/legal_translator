@@ -1,12 +1,12 @@
 from pydantic import BaseModel
 
-from src.models.models import StandardModel
+from src.models.models import LegalTranslation
 from src.utils.database_utils import add_document_to_collection
 from src.utils.request_utils import request_chat_completion
 
 
 class StandardController(BaseModel):
-    standard_model: StandardModel
+    standard_model: LegalTranslation
 
     async def initialize_standard_controller(self):
 

@@ -39,9 +39,6 @@ class StrUUID(str):
         return f"StrUUID({super().__repr__()})"
 
 
-_DocumentType = TypeVar("_DocumentType", bound=Mapping[str, Any])
-
-
 class Document(BaseModel):
     id: StrUUID = Field(default_factory=StrUUID)
     schema_version: str = "0.0.1"

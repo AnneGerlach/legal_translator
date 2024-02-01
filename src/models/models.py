@@ -6,7 +6,7 @@ from pydantic import Field
 from src.documents import Document
 
 
-class StandardModel(Document):
+class LegalTranslation(Document):
     user_id: str
     text: str
     created_at: str = Field(
