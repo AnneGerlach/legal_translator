@@ -6,9 +6,6 @@ from pydantic_core import core_schema
 from pydantic_core.core_schema import CoreSchema, ValidationInfo
 from pymongo.collection import Collection
 
-from src.config.database import get_db
-
-
 class StrUUID(str):
     """
     UUID validation but keeping it as a string.
@@ -84,7 +81,7 @@ class Document(BaseModel):
         return self
 
     @classmethod
-    def get(cls, id: StrUUID, *args, **kwargs) -> Document | None:  # noqa: F821
+    def get(cls, id: StrUUID, *args, **kwargs):
         """
         Shortcut method that retrieves a document and instantiates the python object (model) for it
         """
@@ -94,7 +91,7 @@ class Document(BaseModel):
         return doc
 
     @classmethod
-    def find(cls, filter: Mapping[str, Any] | None = None, *args, **kwargs) -> list[Document]:  # noqa: F821
+    def find(cls, filter: Mapping[str, Any] | None = None, *args, **kwargs):
         """
         Shortcut method that retrieves all document and instantiates the models for them.
         """

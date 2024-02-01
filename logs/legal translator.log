@@ -914,3 +914,19 @@ To install, run: pip install email-validator
 01 Feb 24 09:58:40	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
 01 Feb 24 09:58:46	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
 01 Feb 24 09:58:46	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=5510 request_id=263a27bb414e33d262b412df2c6df340 response_code=200
+01 Feb 24 10:43:31	INFO	main.py	legal translator: Finished initializing
+01 Feb 24 10:44:06	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 10:44:06	DEBUG	multipart.py	Calling on_field_name with data[0:4]
+01 Feb 24 10:44:06	DEBUG	multipart.py	Calling on_field_data with data[5:59]
+01 Feb 24 10:44:06	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 10:44:06	DEBUG	multipart.py	Calling on_field_start with no data
+01 Feb 24 10:44:06	DEBUG	multipart.py	Calling on_field_name with data[60:70]
+01 Feb 24 10:44:06	DEBUG	multipart.py	Calling on_field_data with data[71:81]
+01 Feb 24 10:44:06	DEBUG	multipart.py	Calling on_field_end with no data
+01 Feb 24 10:44:06	DEBUG	multipart.py	Calling on_end with no data
+01 Feb 24 10:44:06	DEBUG	util.py	message='Request to OpenAI API' method=post path=https://api.openai.com/v1/chat/completions
+01 Feb 24 10:44:06	DEBUG	util.py	api_version=None data='{"model": "gpt-3.5-turbo", "messages": [{"role": "assistant", "content": "Let\'s work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: Das ist ein Test.\\r\\nDie Sonne scheeeeeeeeeeeeeeint."}], "temperature": 0.2}' message='Post details'
+01 Feb 24 10:44:06	DEBUG	retry.py	Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+01 Feb 24 10:44:06	DEBUG	connectionpool.py	Starting new HTTPS connection (1): api.openai.com:443
+01 Feb 24 10:44:08	DEBUG	connectionpool.py	https://api.openai.com:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+01 Feb 24 10:44:08	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1848 request_id=b889c37fb45db79ba425c1d8f43d47c5 response_code=200

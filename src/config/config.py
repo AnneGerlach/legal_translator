@@ -94,9 +94,9 @@ class LogConfig(BaseModel):
     logs_file_name: str = LOG_FILE_NAME  # can be overwritten when initialising the model
 
     # Logging config
-    version = 1
-    disable_existing_loggers = False
-    formatters = {
+    version: int = 1
+    disable_existing_loggers: bool = False
+    formatters: dict = {
         "default": {
             "()": "uvicorn.logging.DefaultFormatter",
             "fmt": LOG_FORMAT,
@@ -108,7 +108,7 @@ class LogConfig(BaseModel):
             "datefmt": "%d %b %y %H:%M:%S"
         }
     }
-    handlers = {
+    handlers: dict = {
         "console": {
             "class": "logging.StreamHandler",
             "formatter": "default",
@@ -118,13 +118,13 @@ class LogConfig(BaseModel):
         },
     }
 
-    loggers = {
+    loggers: dict = {
         LOGGER_NAME: {"handlers": ["console", "file"], "level": "DEBUG"},
     }
 
     # allows using logging.info() (or debug, warning etc)
     # instead of having to get the logger each time
-    root = {
+    root: dict = {
         "level": "DEBUG",
         "handlers": ["file"]
     }
