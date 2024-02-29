@@ -3,8 +3,10 @@ fastapi
 pydantic
 uvicorn[standard]
 python-multipart
+pydantic_settings
 certifi
 openai
+jinja2
 
 # Authentication
 python-jose[cryptography]
@@ -20,6 +22,7 @@ motor
 # Testing
 pytest
 pytest-asyncio
+
 # pytest-cases
 httpx
 mongomock-motor

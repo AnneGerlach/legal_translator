@@ -1570,3 +1570,86 @@ To install, run: pip install email-validator
 01 Feb 24 14:08:39	DEBUG	util.py	message='OpenAI API response' path=https://api.openai.com/v1/chat/completions processing_ms=1543 request_id=504e59e7f2f2f648e0304f78e555a74d response_code=200
 01 Feb 24 14:10:32	INFO	main.py	legal translator: Finished initializing
 01 Feb 24 14:12:15	INFO	main.py	legal translator: Finished initializing
+29 Feb 24 16:28:13	INFO	main.py	legal translator: Finished initializing
+29 Feb 24 16:28:17	WARNING	models.py	email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+29 Feb 24 16:29:52	DEBUG	multipart.py	Calling on_part_begin with no data
+29 Feb 24 16:29:52	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+29 Feb 24 16:29:52	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+29 Feb 24 16:29:52	DEBUG	multipart.py	Calling on_header_end with no data
+29 Feb 24 16:29:52	DEBUG	multipart.py	Calling on_headers_finished with no data
+29 Feb 24 16:29:52	DEBUG	multipart.py	Calling on_part_data with data[89:1646]
+29 Feb 24 16:29:52	DEBUG	multipart.py	Calling on_part_data with data[0:2]
+29 Feb 24 16:29:52	DEBUG	multipart.py	Calling on_part_data with data[1648:2976]
+29 Feb 24 16:29:52	DEBUG	multipart.py	Calling on_part_end with no data
+29 Feb 24 16:29:52	DEBUG	multipart.py	Calling on_end with no data
+29 Feb 24 16:31:42	INFO	main.py	legal translator: Finished initializing
+29 Feb 24 16:31:46	DEBUG	multipart.py	Calling on_part_begin with no data
+29 Feb 24 16:31:46	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+29 Feb 24 16:31:46	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+29 Feb 24 16:31:46	DEBUG	multipart.py	Calling on_header_end with no data
+29 Feb 24 16:31:46	DEBUG	multipart.py	Calling on_headers_finished with no data
+29 Feb 24 16:31:46	DEBUG	multipart.py	Calling on_part_data with data[89:2976]
+29 Feb 24 16:31:46	DEBUG	multipart.py	Calling on_part_end with no data
+29 Feb 24 16:31:46	DEBUG	multipart.py	Calling on_end with no data
+29 Feb 24 16:32:53	INFO	main.py	legal translator: Finished initializing
+29 Feb 24 16:33:04	DEBUG	multipart.py	Calling on_part_begin with no data
+29 Feb 24 16:33:04	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+29 Feb 24 16:33:04	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+29 Feb 24 16:33:04	DEBUG	multipart.py	Calling on_header_end with no data
+29 Feb 24 16:33:04	DEBUG	multipart.py	Calling on_headers_finished with no data
+29 Feb 24 16:33:04	DEBUG	multipart.py	Calling on_part_data with data[89:1646]
+29 Feb 24 16:33:04	DEBUG	multipart.py	Calling on_part_data with data[0:2]
+29 Feb 24 16:33:04	DEBUG	multipart.py	Calling on_part_data with data[1648:2129]
+29 Feb 24 16:33:04	DEBUG	multipart.py	Calling on_part_data with data[0:2]
+29 Feb 24 16:33:04	DEBUG	multipart.py	Calling on_part_data with data[2131:2976]
+29 Feb 24 16:33:04	DEBUG	multipart.py	Calling on_part_end with no data
+29 Feb 24 16:33:04	DEBUG	multipart.py	Calling on_end with no data
+29 Feb 24 16:33:04	DEBUG	_config.py	load_ssl_context verify=True cert=None trust_env=True http2=False
+29 Feb 24 16:33:04	DEBUG	_config.py	load_verify_locations cafile='/home/anne/projects/legal_translator/venv/lib/python3.11/site-packages/certifi/cacert.pem'
+29 Feb 24 16:33:04	DEBUG	_base_client.py	Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'assistant', 'content': "Let's work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: (1) Männer können vom vollendeten achtzehnten Lebensjahr an zum Dienst in den Streitkräften, im Bundesgrenzschutz oder in einem Zivilschutzverband verpflichtet werden.\r\n(2) Wer aus Gewissensgründen den Kriegsdienst mit der Waffe verweigert, kann zu einem Ersatzdienst verpflichtet werden. Die Dauer des Ersatzdienstes darf die Dauer des Wehrdienstes nicht übersteigen. Das Nähere regelt ein Gesetz, das die Freiheit der Gewissensentscheidung nicht beeinträchtigen darf und auch eine Möglichkeit des Ersatzdienstes vorsehen muß, die in keinem Zusammenhang mit den Verbänden der Streitkräfte und des Bundesgrenzschutzes steht.\r\n(3) Wehrpflichtige, die nicht zu einem Dienst nach Absatz 1 oder 2 herangezogen sind, können im Verteidigungsfalle durch Gesetz oder auf Grund eines Gesetzes zu zivilen Dienstleistungen für Zwecke der Verteidigung einschließlich des Schutzes der Zivilbevölkerung in Arbeitsverhältnisse verpflichtet werden; Verpflichtungen in öffentlich-rechtliche Dienstverhältnisse sind nur zur Wahrnehmung polizeilicher Aufgaben oder solcher hoheitlichen Aufgaben der öffentlichen Verwaltung, die nur in einem öffentlich-rechtlichen Dienstverhältnis erfüllt werden können, zulässig. Arbeitsverhältnisse nach Satz 1 können bei den Streitkräften, im Bereich ihrer Versorgung sowie bei der öffentlichen Verwaltung begründet werden; Verpflichtungen in Arbeitsverhältnisse im Bereiche der Versorgung der Zivilbevölkerung sind nur zulässig, um ihren lebensnotwendigen Bedarf zu decken oder ihren Schutz sicherzustellen.\r\n(4) Kann im Verteidigungsfalle der Bedarf an zivilen Dienstleistungen im zivilen Sanitäts- und Heilwesen sowie in der ortsfesten militärischen Lazarettorganisation nicht auf freiwilliger Grundlage gedeckt werden, so können Frauen vom vollendeten achtzehnten bis zum vollendeten fünfundfünfzigsten Lebensjahr durch Gesetz oder auf Grund eines Gesetzes zu derartigen Dienstleistungen herangezogen werden. Sie dürfen auf keinen Fall zum Dienst mit der Waffe verpflichtet werden.\r\n(5) Für die Zeit vor dem Verteidigungsfalle können Verpflichtungen nach Absatz 3 nur nach Maßgabe des Artikels 80a Abs. 1 begründet werden. Zur Vorbereitung auf Dienstleistungen nach Absatz 3, für die besondere Kenntnisse oder Fertigkeiten erforderlich sind, kann durch Gesetz oder auf Grund eines Gesetzes die Teilnahme an Ausbildungsveranstaltungen zur Pflicht gemacht werden. Satz 1 findet insoweit keine Anwendung.\r\n(6) Kann im Verteidigungsfalle der Bedarf an Arbeitskräften für die in Absatz 3 Satz 2 genannten Bereiche auf freiwilliger Grundlage nicht gedeckt werden, so kann zur Sicherung dieses Bedarfs die Freiheit der Deutschen, die Ausübung eines Berufs oder den Arbeitsplatz aufzugeben, durch Gesetz oder auf Grund eines Gesetzes eingeschränkt werden. Vor Eintritt des Verteidigungsfalles gilt Absatz 5 Satz 1 entsprechend."}], 'model': 'gpt-3.5-turbo', 'temperature': 0.2}}
+29 Feb 24 16:33:04	DEBUG	_trace.py	connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+29 Feb 24 16:33:04	DEBUG	_trace.py	connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7faaedba9a10>
+29 Feb 24 16:33:04	DEBUG	_trace.py	start_tls.started ssl_context=<ssl.SSLContext object at 0x7faaedb780e0> server_hostname='api.openai.com' timeout=5.0
+29 Feb 24 16:33:04	DEBUG	_trace.py	start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7faaede3d2d0>
+29 Feb 24 16:33:04	DEBUG	_trace.py	send_request_headers.started request=<Request [b'POST']>
+29 Feb 24 16:33:04	DEBUG	_trace.py	send_request_headers.complete
+29 Feb 24 16:33:04	DEBUG	_trace.py	send_request_body.started request=<Request [b'POST']>
+29 Feb 24 16:33:04	DEBUG	_trace.py	send_request_body.complete
+29 Feb 24 16:33:04	DEBUG	_trace.py	receive_response_headers.started request=<Request [b'POST']>
+29 Feb 24 16:33:11	DEBUG	_trace.py	receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 29 Feb 2024 15:33:10 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-0125'), (b'openai-organization', b'user-1wnbpnytfiwb7rprjkefpq1z'), (b'openai-processing-ms', b'5958'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59220'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'780ms'), (b'x-request-id', b'req_92f7eedea4480032c1acf767dc33fd5b'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=u9UzHe5T.TOZvJWmmhCYKUbgQ4rZBVF_Gkc.R8DFTdc-1709220790-1.0-AYCjd0P5EpcP8DKO1doifFRBogJ5HpK12ZdtFdeJfRs7kvmKkbb/d/Yg644anrA7PdnRHlNU4ckzRnqC/ZKS4l8=; path=/; expires=Thu, 29-Feb-24 16:03:10 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Set-Cookie', b'_cfuvid=izfZg1AF8FTU5XGIfxpxTiu8f5DU_zlO6qeA_FuHhoM-1709220790980-0.0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'85d1f6b0aca3cb0d-DUS'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+29 Feb 24 16:33:11	INFO	_client.py	HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+29 Feb 24 16:33:11	DEBUG	_trace.py	receive_response_body.started request=<Request [b'POST']>
+29 Feb 24 16:33:11	DEBUG	_trace.py	receive_response_body.complete
+29 Feb 24 16:33:11	DEBUG	_trace.py	response_closed.started
+29 Feb 24 16:33:11	DEBUG	_trace.py	response_closed.complete
+29 Feb 24 16:33:11	DEBUG	_base_client.py	HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+29 Feb 24 16:40:21	DEBUG	multipart.py	Calling on_part_begin with no data
+29 Feb 24 16:40:21	DEBUG	multipart.py	Calling on_header_field with data[42:61]
+29 Feb 24 16:40:21	DEBUG	multipart.py	Calling on_header_value with data[63:85]
+29 Feb 24 16:40:21	DEBUG	multipart.py	Calling on_header_end with no data
+29 Feb 24 16:40:21	DEBUG	multipart.py	Calling on_headers_finished with no data
+29 Feb 24 16:40:21	DEBUG	multipart.py	Calling on_part_data with data[89:2976]
+29 Feb 24 16:40:21	DEBUG	multipart.py	Calling on_part_end with no data
+29 Feb 24 16:40:21	DEBUG	multipart.py	Calling on_end with no data
+29 Feb 24 16:40:21	DEBUG	_base_client.py	Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'assistant', 'content': "Let's work this out in a step by step way, to be sure we have the right answer. Formuliere diesen Text in leichter Sprache und fasse ihn in Stichpunkten zusammen: (1) Männer können vom vollendeten achtzehnten Lebensjahr an zum Dienst in den Streitkräften, im Bundesgrenzschutz oder in einem Zivilschutzverband verpflichtet werden.\r\n(2) Wer aus Gewissensgründen den Kriegsdienst mit der Waffe verweigert, kann zu einem Ersatzdienst verpflichtet werden. Die Dauer des Ersatzdienstes darf die Dauer des Wehrdienstes nicht übersteigen. Das Nähere regelt ein Gesetz, das die Freiheit der Gewissensentscheidung nicht beeinträchtigen darf und auch eine Möglichkeit des Ersatzdienstes vorsehen muß, die in keinem Zusammenhang mit den Verbänden der Streitkräfte und des Bundesgrenzschutzes steht.\r\n(3) Wehrpflichtige, die nicht zu einem Dienst nach Absatz 1 oder 2 herangezogen sind, können im Verteidigungsfalle durch Gesetz oder auf Grund eines Gesetzes zu zivilen Dienstleistungen für Zwecke der Verteidigung einschließlich des Schutzes der Zivilbevölkerung in Arbeitsverhältnisse verpflichtet werden; Verpflichtungen in öffentlich-rechtliche Dienstverhältnisse sind nur zur Wahrnehmung polizeilicher Aufgaben oder solcher hoheitlichen Aufgaben der öffentlichen Verwaltung, die nur in einem öffentlich-rechtlichen Dienstverhältnis erfüllt werden können, zulässig. Arbeitsverhältnisse nach Satz 1 können bei den Streitkräften, im Bereich ihrer Versorgung sowie bei der öffentlichen Verwaltung begründet werden; Verpflichtungen in Arbeitsverhältnisse im Bereiche der Versorgung der Zivilbevölkerung sind nur zulässig, um ihren lebensnotwendigen Bedarf zu decken oder ihren Schutz sicherzustellen.\r\n(4) Kann im Verteidigungsfalle der Bedarf an zivilen Dienstleistungen im zivilen Sanitäts- und Heilwesen sowie in der ortsfesten militärischen Lazarettorganisation nicht auf freiwilliger Grundlage gedeckt werden, so können Frauen vom vollendeten achtzehnten bis zum vollendeten fünfundfünfzigsten Lebensjahr durch Gesetz oder auf Grund eines Gesetzes zu derartigen Dienstleistungen herangezogen werden. Sie dürfen auf keinen Fall zum Dienst mit der Waffe verpflichtet werden.\r\n(5) Für die Zeit vor dem Verteidigungsfalle können Verpflichtungen nach Absatz 3 nur nach Maßgabe des Artikels 80a Abs. 1 begründet werden. Zur Vorbereitung auf Dienstleistungen nach Absatz 3, für die besondere Kenntnisse oder Fertigkeiten erforderlich sind, kann durch Gesetz oder auf Grund eines Gesetzes die Teilnahme an Ausbildungsveranstaltungen zur Pflicht gemacht werden. Satz 1 findet insoweit keine Anwendung.\r\n(6) Kann im Verteidigungsfalle der Bedarf an Arbeitskräften für die in Absatz 3 Satz 2 genannten Bereiche auf freiwilliger Grundlage nicht gedeckt werden, so kann zur Sicherung dieses Bedarfs die Freiheit der Deutschen, die Ausübung eines Berufs oder den Arbeitsplatz aufzugeben, durch Gesetz oder auf Grund eines Gesetzes eingeschränkt werden. Vor Eintritt des Verteidigungsfalles gilt Absatz 5 Satz 1 entsprechend."}], 'model': 'gpt-3.5-turbo', 'temperature': 0.2}}
+29 Feb 24 16:40:21	DEBUG	_trace.py	close.started
+29 Feb 24 16:40:21	DEBUG	_trace.py	close.complete
+29 Feb 24 16:40:21	DEBUG	_trace.py	connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+29 Feb 24 16:40:21	DEBUG	_trace.py	connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7faaedbaa110>
+29 Feb 24 16:40:21	DEBUG	_trace.py	start_tls.started ssl_context=<ssl.SSLContext object at 0x7faaedb780e0> server_hostname='api.openai.com' timeout=5.0
+29 Feb 24 16:40:21	DEBUG	_trace.py	start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7faaedbaac90>
+29 Feb 24 16:40:21	DEBUG	_trace.py	send_request_headers.started request=<Request [b'POST']>
+29 Feb 24 16:40:21	DEBUG	_trace.py	send_request_headers.complete
+29 Feb 24 16:40:21	DEBUG	_trace.py	send_request_body.started request=<Request [b'POST']>
+29 Feb 24 16:40:21	DEBUG	_trace.py	send_request_body.complete
+29 Feb 24 16:40:21	DEBUG	_trace.py	receive_response_headers.started request=<Request [b'POST']>
+29 Feb 24 16:40:26	DEBUG	_trace.py	receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 29 Feb 2024 15:40:26 GMT'), (b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'access-control-allow-origin', b'*'), (b'Cache-Control', b'no-cache, must-revalidate'), (b'openai-model', b'gpt-3.5-turbo-0125'), (b'openai-organization', b'user-1wnbpnytfiwb7rprjkefpq1z'), (b'openai-processing-ms', b'4079'), (b'openai-version', b'2020-10-01'), (b'strict-transport-security', b'max-age=15724800; includeSubDomains'), (b'x-ratelimit-limit-requests', b'10000'), (b'x-ratelimit-limit-tokens', b'60000'), (b'x-ratelimit-remaining-requests', b'9999'), (b'x-ratelimit-remaining-tokens', b'59220'), (b'x-ratelimit-reset-requests', b'8.64s'), (b'x-ratelimit-reset-tokens', b'780ms'), (b'x-request-id', b'req_76128710e16dbb512c74c0cb41b8ee51'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Server', b'cloudflare'), (b'CF-RAY', b'85d2015a8a426a9a-DUS'), (b'Content-Encoding', b'gzip'), (b'alt-svc', b'h3=":443"; ma=86400')])
+29 Feb 24 16:40:26	INFO	_client.py	HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+29 Feb 24 16:40:26	DEBUG	_trace.py	receive_response_body.started request=<Request [b'POST']>
+29 Feb 24 16:40:26	DEBUG	_trace.py	receive_response_body.complete
+29 Feb 24 16:40:26	DEBUG	_trace.py	response_closed.started
+29 Feb 24 16:40:26	DEBUG	_trace.py	response_closed.complete
+29 Feb 24 16:40:26	DEBUG	_base_client.py	HTTP Request: POST https://api.openai.com/v1/chat/completions "200 OK"
+29 Feb 24 17:13:57	DEBUG	_trace.py	close.started
+29 Feb 24 17:13:57	DEBUG	_trace.py	close.complete

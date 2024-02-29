@@ -1,11 +1,12 @@
 import uuid
 from typing import Any, Mapping
 
-from config.database import get_db
 from pydantic import BaseModel, ConfigDict, Field, GetCoreSchemaHandler
 from pydantic_core import core_schema
 from pydantic_core.core_schema import CoreSchema, ValidationInfo
 from pymongo.collection import Collection
+
+from src.config.database import get_db
 
 
 class StrUUID(str):

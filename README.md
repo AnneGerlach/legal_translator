@@ -9,4 +9,4 @@ Start mongod community local instance
 
 Start the app
 
-```run with `python -m src.main```
+```python -m src.main```
